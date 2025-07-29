@@ -1,0 +1,36 @@
+# Gold Dataset
+# val_x
+From {Start_Time} to {End_Time}, the closing gold price was {Time_Series} USD per ounce on each day. What will be the closing price on {Prediction_Time}?
+# val_y
+The closing gold price will be {Predicted_Values} USD per ounce.
+
+# ETTm Dataset
+# val_x
+From {Start_Time} to {End_Time}, the electricity {Variable} was {Time_Series} MW on each day. What will the electricity {Variable} be on {Prediction_Time}?
+# val_y
+The electricity {Variable} will be {Predicted_Values} MW.
+
+# Weather Dataset
+# val_x
+From {Start_Time} to {End_Time}, the weather {Variable} in region 1 was {Time_Series} percent on each day. What will the weather {Variable} be on {Prediction_Time}?
+# val_y
+The weather {Variable} will be {Predicted_Values}.
+
+
+# Gold (MultiStep) Dataset
+# val_x
+From {Start_Time} to {End_Time}, the closing gold price was {Time_Series} USD per ounce on each day. What will be the closing prices over the next 48 minutes?
+# val_y
+From {Prediction_Range}, the closing gold prices will be {Predicted_Values} USD per ounce on each minute.
+
+# ETTm (MultiStep) Dataset
+# val_x
+From {Start_Time} to {End_Time}, the electricity {Variable} was {Time_Series} MW on each day. What will the electricity {Variable} be over the next 96 minutes?
+# val_y
+From {Prediction_Range}, the electricity {Variable} will be {Predicted_Values} MW on each minute.
+
+# Weather (MultiStep) Dataset
+# val_x
+From {Start_Time} to {End_Time}, the weather {Variable} in region 1 was {Time_Series} percent on each day. What will the weather {Variable} be over the next 144 minutes?
+# val_y
+From {Prediction_Range}, the weather {Variable} will be {Predicted_Values} percent on each minute.
