@@ -1,0 +1,110 @@
+File: series_8
+Data points: 1984
+Detected representative subsequence: 15
+
+Representative subsequence 1: position=[143,231], pattern=Fixed Seasonality
+Representative subsequence 2: position=[244,284], pattern=Upward Trend
+Representative subsequence 3: position=[289,446], pattern=Fixed Seasonality
+Representative subsequence 4: position=[452,492], pattern=Upward Trend
+Representative subsequence 5: position=[494,534], pattern=Upward Trend
+Representative subsequence 6: position=[537,584], pattern=Outlier
+Representative subsequence 7: position=[601,641], pattern=Fixed Seasonality
+Representative subsequence 8: position=[658,698], pattern=Fixed Seasonality
+Representative subsequence 9: position=[832,872], pattern=Downward Trend
+Representative subsequence 10: position=[873,947], pattern=Upward Trend
+Representative subsequence 11: position=[985,1025], pattern=Upward Trend
+Representative subsequence 12: position=[1047,1121], pattern=Downward Trend
+Representative subsequence 13: position=[1622,1752], pattern=Downward Trend
+Representative subsequence 14: position=[1759,1799], pattern=Downward Trend
+Representative subsequence 15: position=[1806,1846], pattern=Downward Trend
+
+==== ClaSP Scores ====
+Index,Score
+100,0.700430
+120,0.740914
+140,0.796026
+160,0.838479
+180,0.826854
+200,0.826306
+220,0.824827
+240,0.819136
+260,0.827468
+280,0.826104
+300,0.826536
+320,0.851573
+340,0.865359
+360,0.863375
+380,0.868103
+400,0.868236
+420,0.858003
+440,0.861218
+460,0.873912
+480,0.869539
+500,0.863305
+520,0.867645
+540,0.883479
+560,0.889291
+580,0.882784
+600,0.874347
+620,0.862464
+640,0.841770
+660,0.829026
+680,0.823611
+700,0.806978
+720,0.798882
+740,0.790726
+760,0.779664
+780,0.781079
+800,0.789839
+820,0.799366
+840,0.805106
+860,0.819631
+880,0.833566
+900,0.832268
+920,0.814148
+940,0.808898
+960,0.797734
+980,0.796893
+1000,0.801367
+1020,0.796958
+1040,0.794274
+1060,0.797468
+1080,0.795833
+1100,0.799578
+1120,0.784388
+1140,0.777688
+1160,0.786563
+1180,0.797023
+1200,0.772156
+1220,0.751179
+1240,0.714529
+1260,0.708512
+1280,0.725134
+1300,0.709818
+1320,0.701538
+1340,0.705775
+1360,0.712924
+1380,0.719304
+1400,0.728158
+1420,0.737215
+1440,0.749341
+1460,0.765585
+1480,0.774398
+1500,0.787450
+1520,0.808169
+1540,0.816978
+1560,0.831435
+1580,0.852851
+1600,0.875790
+1620,0.899701
+1640,0.913481
+1660,0.927498
+1680,0.922909
+1700,0.915515
+1720,0.906250
+1740,0.879272
+1760,0.883761
+1780,0.906443
+1800,0.829130
+1820,0.798693
+1840,0.776079
