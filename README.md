@@ -1,5 +1,5 @@
 <div align="center">
-  <h2><b> <img src="https://github.com/user-attachments/assets/d275986b-27c3-4462-afd7-5c58a836a0b8" style="width:30px;height:30px;"> InfTS-LLM: Aligning Streaming Time Series with LLMs via Pattern-Guided Representative Subsequences for Beyond-Context Understanding </b></h2>
+  <h2><b> <img src="https://github.com/user-attachments/assets/d275986b-27c3-4462-afd7-5c58a836a0b8" style="width:30px;height:30px;"> InfTS-LLM: Pattern-Guided Alignment of Streaming Time Series with LLMs for Beyond-Context Understanding </b></h2>
 </div>
 
 This repository contains the code for our paper, where we porpose an intuitive yet effective framework aligning streaming time series with LLMs for beyond-context understanding.
