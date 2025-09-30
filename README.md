@@ -1,5 +1,5 @@
 <div align="center">
-  <h2><b> <img src="https://github.com/user-attachments/assets/d275986b-27c3-4462-afd7-5c58a836a0b8" style="width:30px;height:30px;"> InfTS-LLM: Infinite Alignment of Streaming Time Series with Large Language Models </b></h2>
+  <h2><b> <img src="https://github.com/user-attachments/assets/d275986b-27c3-4462-afd7-5c58a836a0b8" style="width:30px;height:30px;"> InfTS-LLM: Infinite Alignment of Streaming Time Series with LLMs </b></h2>
 </div>
 
 This repository provides the code for our paper, which introduces a framework aligning infinite-length streaming time series with LLMs through LLM-friendly representations, enabling temporal understanding, reasoning, and forecasting.
