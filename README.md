@@ -14,8 +14,8 @@ InfTS-LLM can be directly applied to any LLMs without retraining:
 - ✅ **Native support for multivariate time series**
 -->
 
-### Example Application
-Here is an example of a InfTS-LLM application, which allows users to interact with a LLM to understand and reason about **Streaming Time Series**:
+### Example Demonstration
+Here is an example of InfTS-LLM, enabling users to interact with the LLM for understanding, reasoning, and forecasting over streaming time series.
 <p align="left">
   <img width="2700" height="1090" alt="image" src="https://github.com/user-attachments/assets/e627d7d3-8139-45b7-9a5f-cd50bb529eef" />
 </p>
@@ -48,6 +48,15 @@ Inspired by the process of “**skipping a stone on water**”, splashes and rip
 5. Reasoning task datasets can be download from [AIOps](https://github.com/netmanaiops/kpi-anomaly-detection), [WeatherQA](https://www.bgc-jena.mpg.de/wetter), and [NAB](https://github.com/numenta/NAB), [Oracle](https://zenodo.org/records/6955909), and [MCQ2](https://github.com/behavioral-data/TSandLanguage)
    
 ## Usages
+
+* ### Obtain InfTS-LLM
+
+```bash
+git clone https://github.com/Leeway-95/InfTS-LLM.git
+cd InfTS-LLM
+pip3 install -r requirements.txt
+```
+
 * ### Batch version
 
 ```bash
