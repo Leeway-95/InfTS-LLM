@@ -1,0 +1,64 @@
+File: series_60
+Data points: 1216
+Detected representative subsequence: 8
+
+Representative subsequence 1: position=[94,182]
+Representative subsequence 2: position=[211,258]
+Representative subsequence 3: position=[281,376]
+Representative subsequence 4: position=[386,536]
+Representative subsequence 5: position=[544,757]
+Representative subsequence 6: position=[769,912]
+Representative subsequence 7: position=[914,979]
+Representative subsequence 8: position=[998,1099]
+
+==== ClaSP Scores ====
+Timestep, Score
+100, 0.858790
+120, 0.881128
+140, 0.865319
+160, 0.858813
+180, 0.890084
+200, 0.909286
+220, 0.926054
+240, 0.918059
+260, 0.894767
+280, 0.881192
+300, 0.884260
+320, 0.877165
+340, 0.864957
+360, 0.862558
+380, 0.873572
+400, 0.883868
+420, 0.879564
+440, 0.876597
+460, 0.885846
+480, 0.885876
+500, 0.883595
+520, 0.882374
+540, 0.887869
+560, 0.890947
+580, 0.882960
+600, 0.884153
+620, 0.891548
+640, 0.899926
+660, 0.902085
+680, 0.908157
+700, 0.906045
+720, 0.905595
+740, 0.908102
+760, 0.903836
+780, 0.899345
+800, 0.906328
+820, 0.915610
+840, 0.910845
+860, 0.912723
+880, 0.921418
+900, 0.921504
+920, 0.911231
+940, 0.922527
+960, 0.914994
+980, 0.903522
+1000, 0.887083
+1020, 0.916916
+1040, 0.920150
+1060, 0.915858

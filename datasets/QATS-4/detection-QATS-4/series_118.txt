@@ -1,0 +1,29 @@
+File: series_118
+Data points: 768
+Detected representative subsequence: 2
+
+Representative subsequence 1: position=[100,129]
+Representative subsequence 2: position=[245,265]
+
+==== ClaSP Scores ====
+Timestep, Score
+100, 0.797373
+120, 0.780048
+140, 0.736976
+160, 0.726523
+180, 0.723571
+200, 0.737203
+220, 0.764147
+240, 0.777011
+260, 0.757804
+280, 0.701990
+300, 0.687736
+320, 0.652076
+340, 0.666257
+360, 0.680228
+380, 0.649414
+400, 0.565598
+420, 0.471146
+440, 0.432698
+460, 0.437666
+480, 0.440799

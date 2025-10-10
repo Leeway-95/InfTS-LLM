@@ -1,0 +1,1065 @@
+
+================================================================================
+Timestamp: 2025-09-15 01:18:15
+Task: REASONING | Dataset: QATS-4 | Method: Window | HistLen: 256 | PredLen: 1 | Index: 1 | 2025-09-15 01:18:15
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.3518453990902116, "amplitude": -0.709737109849281},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.56}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:18
+Task: REASONING | Dataset: QATS-4 | Method: Window | HistLen: 1024 | PredLen: 4 | Index: 2 | 2025-09-15 01:18:18
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": -1.0706704353314245, "trend_change": -0.12},
+      {"type": "noisy", "std": 0.93},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:20
+Task: REASONING | Dataset: QATS-4 | Method: Window | HistLen: 19456 | PredLen: 3 | Index: 3 | 2025-09-15 01:18:20
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775180339810211, "amplitude": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:23
+Task: REASONING | Dataset: QATS-4 | Method: Window | HistLen: 15104 | PredLen: 4 | Index: 4 | 2025-09-15 01:18:23
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 0.4603891766631228, "amplitude": 0.01757983366844057},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.002}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:25
+Task: REASONING | Dataset: QATS-4 | Method: Window | HistLen: 5376 | PredLen: 10 | Index: 5 | 2025-09-15 01:18:25
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 184.40, "amplitude": -0.12},
+      {"type": "noisy", "std": 31.51},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:28
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | HistLen: 256 | PredLen: 1 | Index: 1 | 2025-09-15 01:18:28
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.35, "amplitude": -0.12},
+      {"type": "noisy", "std": 0.93},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:36
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | HistLen: 1024 | PredLen: 4 | Index: 2 | 2025-09-15 01:18:36
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -1.0707, "amplitude": 2.5650},
+      {"type": "noisy", "std": 0.54},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 1.5}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:42
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | HistLen: 19456 | PredLen: 3 | Index: 3 | 2025-09-15 01:18:42
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775180339810211, "amplitude": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:48
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | HistLen: 15104 | PredLen: 4 | Index: 4 | 2025-09-15 01:18:48
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 0.4604, "amplitude": 0.0176},
+      {"type": "almost no noise", "std": 0.0011},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:56
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | HistLen: 5376 | PredLen: 10 | Index: 5 | 2025-09-15 01:18:56
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "increasing", "start": 184.40, "amplitude": 0.12},
+      {"type": "noisy", "std": 30.12},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:59
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | HistLen: 256 | PredLen: 1 | Index: 1 | 2025-09-15 01:18:59
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.3518453990902116, "trend_change": -0.709737109849281},
+      {"type": "noisy", "std": 0.66},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:01
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | HistLen: 1024 | PredLen: 4 | Index: 2 | 2025-09-15 01:19:01
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": -1.0706704353314245, "amplitude": -1.5},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.93}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:04
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | HistLen: 19456 | PredLen: 3 | Index: 3 | 2025-09-15 01:19:04
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775180339810211, "amplitude": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:07
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | HistLen: 15104 | PredLen: 4 | Index: 4 | 2025-09-15 01:19:07
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 0.4603891766631228, "trend_change": 0.017},
+      {"type": "almost no noise", "std": 0.0015},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:09
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | HistLen: 5376 | PredLen: 10 | Index: 5 | 2025-09-15 01:19:09
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 184.40, "amplitude": -46.82},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 31.51}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:12
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | HistLen: 256 | PredLen: 1 | Index: 1 | 2025-09-15 01:19:12
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.3518453990902116, "amplitude": -0.709737109849281},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.46}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:19
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | HistLen: 1024 | PredLen: 4 | Index: 2 | 2025-09-15 01:19:19
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": -1.0707, "amplitude": 1.5650},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.76}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:25
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | HistLen: 19456 | PredLen: 3 | Index: 3 | 2025-09-15 01:19:25
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775180339810211, "amplitude": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:32
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | HistLen: 15104 | PredLen: 4 | Index: 4 | 2025-09-15 01:19:32
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 0.4603891766631228, "trend_change": 0.017"},
+      {"type": "almost no noise", "std": 0.001},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:40
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | HistLen: 5376 | PredLen: 10 | Index: 5 | 2025-09-15 01:19:40
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "increasing", "start": 184.40, "amplitude": 0.12},
+      {"type": "noisy", "std": 31.51},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:44
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | HistLen: 256 | PredLen: 1 | Index: 1 | 2025-09-15 01:19:44
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 13.25, "end": -0.71, "amplitude": -13.96, "slope": -0.054, "r_squared": 0.85, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.15, "autocorr_max": 0.18},
+      {"type": "noisy", "std": 1.23, "variance_ratio": 1.67, "snr": 1.89, "baseline_std": 0.75}
+    ],
+    [
+      {"type": "decrease after upward spike", "spike_position": 127, "spike_amplitude": 13.25, "spike_duration": 1, "post_decrease_slope": -0.75, "recovery_time": 10}
+    ]
+  ],
+  "Impact_Scores": [0.300, 0.450, 0.200, 0.050]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:47
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | HistLen: 1024 | PredLen: 4 | Index: 2 | 2025-09-15 01:19:47
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -1.0706704353314245, "end": 1.0075523996849265, "amplitude": 2.0782228350163505, "slope": 0.004, "r_squared": 0.85, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.15, "autocorr_max": 0.20},
+      {"type": "noisy", "std": 0.95, "variance_ratio": 1.50, "snr": 2.10, "baseline_std": 0.75}
+    ],
+    [
+      {"type": "increase after downward shift", "shift_position": 127, "shift_amplitude": 1.56, "shift_duration": 5, "post_increase_slope": 0.75, "recovery_time": 10}
+    ]
+  ],
+  "Impact_Scores": [0.250, 0.400, 0.200, 0.150]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:50
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | HistLen: 19456 | PredLen: 3 | Index: 3 | 2025-09-15 01:19:50
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775, "end": -0.013775, "amplitude": 0.0, "slope": 0.0, "r_squared": 1.0, "confidence": 1.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.0, "autocorr_max": 0.0},
+      {"type": "almost no noise", "std": 0.0, "variance_ratio": 0.0, "snr": "N/A", "baseline_std": 0.0}
+    ],
+    []
+  ],
+  "Impact_Scores": []
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:19:54
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | HistLen: 15104 | PredLen: 4 | Index: 4 | 2025-09-15 01:19:54
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": [
+    [
+      {"type": "increase", "start": 0.460, "end": 0.478, "amplitude": 0.018, "slope": 0.0007, "r_squared": 0.95, "confidence": 0.98},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.05, "autocorr_max": 0.15},
+      {"type": "almost no noise", "std": 0.002, "variance_ratio": 0.01, "snr": 50.00, "baseline_std": 0.001}
+    ],
+    [
+      {"type": "steady increase", "start_position": 0, "end_position": 255, "total_increase": 0.018, "average_slope": 0.00007}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200, 0.100]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:19:58
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | HistLen: 5376 | PredLen: 10 | Index: 5 | 2025-09-15 01:19:58
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "increasing", "start": 184.40, "end": 248.00, "amplitude": 63.60, "slope": 0.25, "r_squared": 0.87, "confidence": 0.95},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51, "fft_peak_ratio": 0.15, "autocorr_max": 0.30},
+      {"type": "noisy", "std": 38.12, "variance_ratio": 1.75, "snr": 1.20, "baseline_std": 25.00}
+    ],
+    [
+      {"type": "increase after downward shift", "shift_position": 109, "shift_amplitude": -75.00, "shift_duration": 5, "post_increase_slope": 1.50, "recovery_time": 10}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200, 0.100]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:20:02
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | HistLen: 256 | PredLen: 1 | Index: 1 | 2025-09-15 01:20:02
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 13.25, "end": -0.71, "amplitude": -13.96, "slope": -0.054, "r_squared": 0.85, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.15, "autocorr_max": 0.18},
+      {"type": "noisy", "std": 1.23, "variance_ratio": 1.67, "snr": 1.89, "baseline_std": 0.75}
+    ],
+    [
+      {"type": "decrease after upward spike", "spike_position": 127, "spike_amplitude": 13.25, "spike_duration": 1, "post_decrease_slope": -0.45, "recovery_time": 10}
+    ]
+  ],
+  "Impact_Scores": [0.250, 0.400, 0.200, 0.150]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:20:10
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | HistLen: 1024 | PredLen: 4 | Index: 2 | 2025-09-15 01:20:10
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -1.0707, "end": 1.3465, "amplitude": 2.4172, "slope": 0.005, "r_squared": 0.85, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.15, "autocorr_max": 0.10},
+      {"type": "noisy", "std": 0.76, "variance_ratio": 1.20, "snr": 3.12, "baseline_std": 0.50}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200, 0.100]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:20:17
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | HistLen: 19456 | PredLen: 3 | Index: 3 | 2025-09-15 01:20:17
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775, "end": -0.013775, "amplitude": 0.0, "slope": 0.0, "r_squared": 1.0, "confidence": 1.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.0, "autocorr_max": 0.0},
+      {"type": "almost no noise", "std": 0.0, "variance_ratio": 0.0, "snr": 0.0, "baseline_std": 0.0}
+    ]
+  ],
+  "Impact_Scores": [1.000]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:20:25
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | HistLen: 15104 | PredLen: 4 | Index: 4 | 2025-09-15 01:20:25
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": [
+    [
+      {"type": "increase", "start": 0.460, "end": 0.478, "amplitude": 0.018, "slope": 0.0007, "r_squared": 0.95, "confidence": 0.98},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.05, "autocorr_max": 0.15},
+      {"type": "almost no noise", "std": 0.001, "variance_ratio": 0.02, "snr": 50.00, "baseline_std": 0.001}
+    ],
+    [
+      {"type": "steady", "start": 0.460, "end": 0.478, "amplitude": 0.018, "slope": 0.0007, "r_squared": 0.95, "confidence": 0.98}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200, 0.100]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:20:34
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | HistLen: 5376 | PredLen: 10 | Index: 5 | 2025-09-15 01:20:34
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 184.40, "end": 248.00, "amplitude": 63.60, "slope": 0.25, "r_squared": 0.87, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.15, "autocorr_max": 0.20},
+      {"type": "noisy", "std": 38.12, "variance_ratio": 1.78, "snr": 1.45, "baseline_std": 30.25}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200, 0.100]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:20
+Task: REASONING | Dataset: QATS-4 | Method: Window | Index: 1 | 2025-09-15 03:51:20
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.35, "amplitude": -0.70},
+      {"type": "noisy", "std": 0.57},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:22
+Task: REASONING | Dataset: QATS-4 | Method: Window | Index: 2 | 2025-09-15 03:51:22
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": -1.0706704353314245, "trend_change": -0.12},
+      {"type": "noisy", "std": 0.93},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:25
+Task: REASONING | Dataset: QATS-4 | Method: Window | Index: 3 | 2025-09-15 03:51:25
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775180339810211, "amplitude": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:27
+Task: REASONING | Dataset: QATS-4 | Method: Window | Index: 4 | 2025-09-15 03:51:27
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 0.4603891766631228, "trend_change": 0.017},
+      {"type": "almost no noise", "std": 0.002},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:30
+Task: REASONING | Dataset: QATS-4 | Method: Window | Index: 5 | 2025-09-15 03:51:30
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 184.40, "amplitude": -46.82},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 37.12}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:32
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | Index: 1 | 2025-09-15 03:51:32
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.3518453990902116, "trend_change": -0.709737109849281},
+      {"type": "noisy", "std": 0.55},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:40
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | Index: 2 | 2025-09-15 03:51:40
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -1.0706704353314245, "trend_change": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.56}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:47
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | Index: 3 | 2025-09-15 03:51:47
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775, "amplitude": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:51:55
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | Index: 4 | 2025-09-15 03:51:55
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 0.4604, "amplitude": 0.0176},
+      {"type": "noisy", "std": 0.0012},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:03
+Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | Index: 5 | 2025-09-15 03:52:03
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "increasing", "start": 184.40, "amplitude": 0.12},
+      {"type": "noisy", "std": 42.76},
+      {"type": "periodic fluctuation", "period": 10.0, "amplitude": 50.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:05
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | Index: 1 | 2025-09-15 03:52:05
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.3518453990902116, "trend_change": -0.709737109849281},
+      {"type": "noisy", "std": 0.43},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:07
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | Index: 2 | 2025-09-15 03:52:07
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": -1.0706704353314245, "amplitude": -1.5},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.93}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:10
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | Index: 3 | 2025-09-15 03:52:10
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775180339810211, "amplitude": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:12
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | Index: 4 | 2025-09-15 03:52:12
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 0.4603891766631228, "amplitude": 0.0175},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.0012}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:14
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | Index: 5 | 2025-09-15 03:52:14
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 184.40, "amplitude": -46.82},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 30.12}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:17
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | Index: 1 | 2025-09-15 03:52:17
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.3518453990902116, "trend_change": -0.5},
+      {"type": "noisy", "std": 0.5},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:25
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | Index: 2 | 2025-09-15 03:52:25
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": -1.0707, "amplitude": 1.5650},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.56}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:31
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | Index: 3 | 2025-09-15 03:52:31
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775180339810211, "amplitude": 0.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.0}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:38
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | Index: 4 | 2025-09-15 03:52:38
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 0.4603891766631228, "amplitude": 0.017},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "almost no noise", "std": 0.002}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:44
+Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | Index: 5 | 2025-09-15 03:52:44
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "increasing", "start": 184.40, "amplitude": 0.12},
+      {"type": "noisy", "std": 31.51},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51}
+    ]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:47
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | Index: 1 | 2025-09-15 03:52:47
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 13.25, "end": -0.71, "amplitude": -13.96, "slope": -0.054, "r_squared": 0.85, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.15, "autocorr_max": 0.18},
+      {"type": "noisy", "std": 1.25, "variance_ratio": 1.67, "snr": 1.89, "baseline_std": 0.75}
+    ],
+    [
+      {"type": "decrease after upward spike", "spike_position": 127, "spike_amplitude": 13.25, "spike_duration": 3, "post_decrease_slope": -2.45, "recovery_time": 12}
+    ]
+  ],
+  "Impact_Scores": [0.240, 0.430, 0.200, 0.130]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:51
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | Index: 2 | 2025-09-15 03:52:51
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": -1.0706704353314245, "end": 1.0075523996849265, "amplitude": 2.078222835016351, "slope": 0.008, "r_squared": 0.85, "confidence": 0.95},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51, "fft_peak_ratio": 0.75, "autocorr_max": 0.65},
+      {"type": "noisy", "std": 1.5, "variance_ratio": 1.75, "snr": 1.2, "baseline_std": 0.8}
+    ],
+    [
+      {"type": "increase after downward trend", "spike_position": 127, "spike_amplitude": 2.564, "spike_duration": 5, "post_increase_slope": 0.25, "recovery_time": 10}
+    ]
+  ],
+  "Impact_Scores": [0.250, 0.400, 0.200, 0.150]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:54
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | Index: 3 | 2025-09-15 03:52:54
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775, "end": -0.013775, "amplitude": 0.0, "slope": 0.0, "r_squared": 1.0, "confidence": 1.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.0, "autocorr_max": 0.0},
+      {"type": "almost no noise", "std": 0.0, "variance_ratio": 0.0, "snr": "inf", "baseline_std": 0.0}
+    ],
+    []
+  ],
+  "Impact_Scores": [1.000]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:52:58
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | Index: 4 | 2025-09-15 03:52:58
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": [
+    [
+      {"type": "increase", "start": 0.460, "end": 0.478, "amplitude": 0.018, "slope": 0.00007, "r_squared": 0.95, "confidence": 0.95},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.10, "autocorr_max": 0.15},
+      {"type": "almost no noise", "std": 0.002, "variance_ratio": 0.01, "snr": 50.00, "baseline_std": 0.001}
+    ],
+    [
+      {"type": "steady increase", "start_position": 0, "end_position": 255, "total_increase": 0.018, "average_slope": 0.00007, "duration": 256}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200, 0.100]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:53:01
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM | Index: 5 | 2025-09-15 03:53:01
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": [
+    [
+      {"type": "increase", "start": 184.40, "end": 248.00, "amplitude": 63.60, "slope": 0.25, "r_squared": 0.87, "confidence": 0.95},
+      {"type": "periodic fluctuation", "period": 20.58, "amplitude": 31.51, "fft_peak_ratio": 0.15, "autocorr_max": 0.30},
+      {"type": "noisy", "std": 43.12, "variance_ratio": 1.78, "snr": 1.56, "baseline_std": 25.34}
+    ],
+    [
+      {"type": "increase after downward shift", "shift_position": 109, "shift_amplitude": -75.00, "shift_duration": 5, "post_increase_slope": 1.20, "recovery_time": 15}
+    ]
+  ],
+  "Impact_Scores": [0.345, 0.267, 0.188, 0.200]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:53:05
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 03:53:05
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": [
+    [
+      {"type": "decreasing", "start": 0.3518453990902116, "end": -0.709737109849281, "amplitude": -1.061582508939492, "slope": -0.004, "r_squared": 0.85, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.10, "autocorr_max": 0.15},
+      {"type": "noisy", "std": 1.23, "variance_ratio": 2.10, "snr": 1.75, "baseline_std": 0.85}
+    ],
+    [
+      {"type": "decrease after upward spike", "spike_position": 127, "spike_amplitude": 13.248360652851916, "spike_duration": 1, "post_decrease_slope": -0.45, "recovery_time": 10}
+    ]
+  ],
+  "Impact_Scores": [0.250, 0.400, 0.200, 0.150]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:53:13
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 03:53:13
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -1.0706704353314245, "end": 1.0075523996849265, "amplitude": 2.078222835016351, "slope": 0.008, "r_squared": 0.85, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.10, "autocorr_max": 0.15},
+      {"type": "noisy", "std": 0.85, "variance_ratio": 1.30, "snr": 2.10, "baseline_std": 0.50}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:53:19
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 03:53:19
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": -0.013775, "end": -0.013775, "amplitude": 0.0, "slope": 0.0, "r_squared": 1.0, "confidence": 1.0},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.0, "autocorr_max": 0.0},
+      {"type": "almost no noise", "std": 0.0, "variance_ratio": 0.0, "snr": 0.0, "baseline_std": 0.0}
+    ]
+  ],
+  "Impact_Scores": [1.000]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:53:27
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 03:53:27
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "increase", "start": 0.460, "end": 0.478, "amplitude": 0.018, "slope": 0.0007, "r_squared": 0.95, "confidence": 0.95},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.05, "autocorr_max": 0.10},
+      {"type": "almost no noise", "std": 0.001, "variance_ratio": 0.02, "snr": 50.00, "baseline_std": 0.001}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:53:36
+Task: REASONING | Dataset: QATS-4 | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 03:53:36
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    [
+      {"type": "steady", "start": 184.40, "end": 248.00, "amplitude": 63.60, "slope": 0.25, "r_squared": 0.85, "confidence": 0.92},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0, "fft_peak_ratio": 0.15, "autocorr_max": 0.18},
+      {"type": "noisy", "std": 36.45, "variance_ratio": 1.78, "snr": 1.12, "baseline_std": 25.67}
+    ]
+  ],
+  "Impact_Scores": [0.400, 0.300, 0.200]
+}
+```

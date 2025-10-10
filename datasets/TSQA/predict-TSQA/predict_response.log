@@ -1,0 +1,244 @@
+
+================================================================================
+Timestamp: 2025-09-15 02:15:58
+Task: UNDERSTANDING | Dataset: TSQA | Method: Window | HistLen: 1856 | PredLen: 8 | Index: 1 | 2025-09-15 02:15:58
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Outlier", "Level Shift"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Outlier", "Level Shift"]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 02:16:05
+Task: UNDERSTANDING | Dataset: TSQA | Method: Window (+v) | HistLen: 1856 | PredLen: 8 | Index: 1 | 2025-09-15 02:16:05
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Seasonal", "Fixed"],
+    ["Outlier", "Level Shift"],
+    ["Trend", "Downward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Sudden Spike"],
+    ["Outlier", "Level Shift"]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 02:16:08
+Task: UNDERSTANDING | Dataset: TSQA | Method: Inf-LLM | HistLen: 1856 | PredLen: 8 | Index: 1 | 2025-09-15 02:16:08
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Outlier", "Level Shift"],
+    ["Trend", "Upward"],
+    ["Outlier", "Sudden Spike"],
+    ["Outlier", "Level Shift"]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 02:16:17
+Task: UNDERSTANDING | Dataset: TSQA | Method: Inf-LLM (+v) | HistLen: 1856 | PredLen: 8 | Index: 1 | 2025-09-15 02:16:17
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Downward"],
+    ["Trend", "Upward"],
+    ["Trend", "Downward"],
+    ["Outlier", "Level Shift"],
+    ["Trend", "Upward"],
+    ["Outlier", "Sudden Spike"],
+    ["Outlier", "Level Shift"]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 02:16:22
+Task: UNDERSTANDING | Dataset: TSQA | Method: InfTS-LLM | HistLen: 1856 | PredLen: 8 | Index: 1 | 2025-09-15 02:16:22
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Volatility", "Increased"],
+    ["Trend", "Downward"],
+    ["Volatility", "Increased"],
+    ["Outlier", "Level Shift"]
+  ],
+  "Impact_Scores": [0.134, 0.156, 0.189, 0.121, 0.156, 0.189, 0.121, 0.134]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 02:16:31
+Task: UNDERSTANDING | Dataset: TSQA | Method: InfTS-LLM (+v) | HistLen: 1856 | PredLen: 8 | Index: 1 | 2025-09-15 02:16:31
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Volatility", "Increased"],
+    ["Trend", "Downward"],
+    ["Volatility", "Increased"],
+    ["Outlier", "Level Shift"]
+  ],
+  "Impact_Scores": [0.134, 0.156, 0.189, 0.121, 0.156, 0.189, 0.121, 0.134]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:20
+Task: UNDERSTANDING | Dataset: TSQA | Method: Window | Index: 1 | 2025-09-15 03:57:20
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Level Shift"],
+    ["Trend", "Upward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Outlier", "Level Shift"],
+    ["Trend", "Upward"],
+    ["Outlier", "Sudden Spike"],
+    ["Outlier", "Sudden Spike"]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:29
+Task: UNDERSTANDING | Dataset: TSQA | Method: Window (+v) | Index: 1 | 2025-09-15 03:57:29
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Outlier", "Level Shift"],
+    ["Trend", "Upward"],
+    ["Trend", "Downward"],
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Outlier", "Sudden Spike"]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:31
+Task: UNDERSTANDING | Dataset: TSQA | Method: Inf-LLM | Index: 1 | 2025-09-15 03:57:31
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Trend", "Downward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Outlier", "Sudden Spike"]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:39
+Task: UNDERSTANDING | Dataset: TSQA | Method: Inf-LLM (+v) | Index: 1 | 2025-09-15 03:57:39
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Seasonal", "Fixed"],
+    ["Volatility", "Increased"],
+    ["Outlier", "Level Shift"],
+    ["Trend", "Downward"],
+    ["Trend", "Downward"],
+    ["Outlier", "Sudden Spike"]
+  ]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:43
+Task: UNDERSTANDING | Dataset: TSQA | Method: InfTS-LLM | Index: 1 | 2025-09-15 03:57:43
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Volatility", "Increased"],
+    ["Trend", "Downward"],
+    ["Volatility", "Increased"],
+    ["Outlier", "Level Shift"]
+  ],
+  "Impact_Scores": [0.134, 0.156, 0.189, 0.121, 0.156, 0.189, 0.121, 0.134]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:52
+Task: UNDERSTANDING | Dataset: TSQA | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 03:57:52
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": [
+    ["Outlier", "Sudden Spike"],
+    ["Trend", "Upward"],
+    ["Trend", "Upward"],
+    ["Outlier", "Level Shift"],
+    ["Volatility", "Increased"],
+    ["Trend", "Downward"],
+    ["Volatility", "Increased"],
+    ["Outlier", "Level Shift"]
+  ],
+  "Impact_Scores": [0.134, 0.156, 0.189, 0.121, 0.156, 0.189, 0.121, 0.134]
+}
+```

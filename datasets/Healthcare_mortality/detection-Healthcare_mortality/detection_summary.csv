@@ -1,0 +1,5 @@
+Index,Dataset,Representative_Subsequence_Positions,DetectTime
+1,Healthcare_mortality,"[114,134],[169,189],[240,260]",0.3041
+2,Healthcare_mortality,"[145,169]",0.1344
+3,Healthcare_mortality,"[148,170]",0.1248
+4,Healthcare_mortality,"[149,170]",0.1406

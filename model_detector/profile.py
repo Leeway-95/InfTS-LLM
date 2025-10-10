@@ -1,9 +1,9 @@
 import numpy as np
 from numba import njit
 
-@njit(fastmath=True)
+
 def _calc_neigh_pos(knn):
-    # Calculate neighbor positions for knn matrix
+    # 计算KNN矩阵的邻居位置
     ind, val = np.zeros(knn.shape[0], np.int32), np.zeros(knn.shape[0] * knn.shape[1], np.int32)
     counts = np.zeros(ind.shape[0], np.int32)
     ptr = np.zeros(ind.shape[0], np.int32)
@@ -20,9 +20,9 @@ def _calc_neigh_pos(knn):
             ptr[nn] += 1
     return ind, val
 
-@njit(fastmath=True)
+
 def _init_labels(knn, offset):
-    # Initialize labels for knn classification
+    # 初始化KNN分类的标签
     n_timepoints, k_neighbours = knn.shape
     y_true = np.concatenate((
         np.zeros(offset, dtype=np.int32),
@@ -38,9 +38,9 @@ def _init_labels(knn, offset):
     y_pred = np.asarray(ones > zeros, dtype=np.int32)
     return (zeros, ones), neigh_pos, y_true, y_pred
 
-@njit(fastmath=True)
+
 def _init_conf_matrix(y_true, y_pred):
-    # Initialize confusion matrix from true/pred labels
+    # 根据真实标签和预测标签初始化混淆矩阵
     tp = np.sum((y_true == 0) & (y_pred == 0))
     fp = np.sum((y_true == 1) & (y_pred == 0))
     fn = np.sum((y_true == 0) & (y_pred == 1))
@@ -48,18 +48,18 @@ def _init_conf_matrix(y_true, y_pred):
     conf_matrix = np.array([tp, fp, fn, tn], dtype=np.int32)
     return conf_matrix
 
-@njit(fastmath=True)
+
 def _update_conf_matrix(old_true, old_pred, new_true, new_pred, conf_matrix):
-    # Update confusion matrix incrementally
+    # 增量更新混淆矩阵
     conf_matrix[0] -= (not old_true and not old_pred) - (not new_true and not new_pred)
     conf_matrix[1] -= (old_true and not old_pred) - (new_true and not new_pred)
     conf_matrix[2] -= (not old_true and old_pred) - (not new_true and new_pred)
     conf_matrix[3] -= (old_true and old_pred) - (new_true and new_pred)
     return conf_matrix
 
-@njit(fastmath=True)
+
 def _update_labels(split_idx, excl_zone, neigh_pos, knn_counts, y_true, y_pred, conf_matrix):
-    # Update labels during change point detection
+    # 在变化点检测过程中更新标签
     np_ind, np_val = neigh_pos
     excl_start, excl_end = excl_zone
     knn_zeros, knn_ones = knn_counts
@@ -87,9 +87,9 @@ def _update_labels(split_idx, excl_zone, neigh_pos, knn_counts, y_true, y_pred, 
                                       conf_matrix)
     return y_true, y_pred, conf_matrix
 
-@njit(fastmath=True)
+
 def _fast_profile(knn, window_size, score, offset):
-    # Compute ClaSP profile for change point detection
+    # 计算变化点检测的ClaSP配置文件
     n_timepoints = knn.shape[0]
     profile = np.full(shape=n_timepoints, fill_value=-np.inf, dtype=np.float32)
     knn_counts, neigh_pos, y_true, y_pred = _init_labels(knn, offset)
@@ -113,7 +113,7 @@ def _fast_profile(knn, window_size, score, offset):
     return profile
 
 def calc_class(ts_stream, score, offset, return_knn=False):
-    # Calculate classification profile from time series stream
+    # 从时间序列流计算分类配置文件
     knn = ts_stream.knns[ts_stream.lbound:ts_stream.knn_insert_idx] - ts_stream.lbound
     knn = np.clip(knn, 0, knn.shape[0] - 1)
     profile = _fast_profile(knn, ts_stream.window_size, score, offset)

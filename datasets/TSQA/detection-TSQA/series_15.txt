@@ -1,0 +1,113 @@
+File: series_15
+Data points: 1984
+Detected representative subsequence: 18
+
+Representative subsequence 1: position=[138,187]
+Representative subsequence 2: position=[192,212]
+Representative subsequence 3: position=[357,397]
+Representative subsequence 4: position=[488,528]
+Representative subsequence 5: position=[580,642]
+Representative subsequence 6: position=[703,756]
+Representative subsequence 7: position=[854,894]
+Representative subsequence 8: position=[984,1058]
+Representative subsequence 9: position=[1060,1100]
+Representative subsequence 10: position=[1107,1217]
+Representative subsequence 11: position=[1222,1296]
+Representative subsequence 12: position=[1316,1356]
+Representative subsequence 13: position=[1386,1426]
+Representative subsequence 14: position=[1431,1559]
+Representative subsequence 15: position=[1568,1608]
+Representative subsequence 16: position=[1624,1685]
+Representative subsequence 17: position=[1731,1793]
+Representative subsequence 18: position=[1794,1856]
+
+==== ClaSP Scores ====
+Timestep, Score
+100, 0.624697
+120, 0.674309
+140, 0.722341
+160, 0.718669
+180, 0.709006
+200, 0.700591
+220, 0.701773
+240, 0.733620
+260, 0.754506
+280, 0.760707
+300, 0.762480
+320, 0.774323
+340, 0.790756
+360, 0.801190
+380, 0.811105
+400, 0.811880
+420, 0.838799
+440, 0.851297
+460, 0.864443
+480, 0.875546
+500, 0.891263
+520, 0.885788
+540, 0.873192
+560, 0.858436
+580, 0.844166
+600, 0.835230
+620, 0.836976
+640, 0.846014
+660, 0.863751
+680, 0.879671
+700, 0.896295
+720, 0.906114
+740, 0.905921
+760, 0.889948
+780, 0.878978
+800, 0.861341
+820, 0.845539
+840, 0.838871
+860, 0.846317
+880, 0.848138
+900, 0.853826
+920, 0.864069
+940, 0.876592
+960, 0.885590
+980, 0.898003
+1000, 0.906209
+1020, 0.902317
+1040, 0.904825
+1060, 0.903892
+1080, 0.908162
+1100, 0.902647
+1120, 0.896797
+1140, 0.892989
+1160, 0.889541
+1180, 0.899024
+1200, 0.908614
+1220, 0.905134
+1240, 0.905515
+1260, 0.906856
+1280, 0.905305
+1300, 0.889458
+1320, 0.880459
+1340, 0.879514
+1360, 0.858332
+1380, 0.841626
+1400, 0.828781
+1420, 0.831017
+1440, 0.844512
+1460, 0.841799
+1480, 0.835858
+1500, 0.830253
+1520, 0.827689
+1540, 0.835957
+1560, 0.832371
+1580, 0.822972
+1600, 0.819564
+1620, 0.831683
+1640, 0.845967
+1660, 0.848555
+1680, 0.850199
+1700, 0.869102
+1720, 0.900552
+1740, 0.925757
+1760, 0.937931
+1780, 0.936147
+1800, 0.920482
+1820, 0.923509
+1840, 0.927614

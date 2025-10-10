@@ -1,0 +1,320 @@
+
+================================================================================
+Timestamp: 2025-09-15 01:15:18
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 1 | 2025-09-15 01:15:18
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:15:20
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 2 | 2025-09-15 01:15:20
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:15:22
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 3 | 2025-09-15 01:15:22
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:15:24
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 4 | 2025-09-15 01:15:24
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:15:26
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 5 | 2025-09-15 01:15:26
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:15:28
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 1 | 2025-09-15 01:15:28
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:15:31
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 2 | 2025-09-15 01:15:31
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:15:33
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 3 | 2025-09-15 01:15:33
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:15:35
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 4 | 2025-09-15 01:15:35
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:15:37
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 5 | 2025-09-15 01:15:37
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:15:45
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 01:15:45
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:15:53
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 01:15:53
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:16:01
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 01:16:01
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:16:08
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 01:16:08
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:16:17
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 01:16:17
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:54
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 1 | 2025-09-15 03:57:54
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:56
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 2 | 2025-09-15 03:57:56
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:58
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 3 | 2025-09-15 03:57:58
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:57:59
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 4 | 2025-09-15 03:57:59
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:58:01
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: TimeCAP | Index: 5 | 2025-09-15 03:58:01
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:58:03
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 1 | 2025-09-15 03:58:03
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:58:05
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 2 | 2025-09-15 03:58:05
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:58:07
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 3 | 2025-09-15 03:58:07
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:58:10
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 4 | 2025-09-15 03:58:10
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:58:12
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM | Index: 5 | 2025-09-15 03:58:12
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:58:19
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 03:58:19
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:58:26
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 03:58:26
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:58:33
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 03:58:33
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 03:58:40
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 03:58:40
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 03:58:46
+Task: FORECASTING_EVENT | Dataset: Weather_ny | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 03:58:46
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not rained", "not rained", "not rained"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}

@@ -1,0 +1,7 @@
+Index,Dataset,Representative_Subsequence_Positions,DetectTime
+1,Healthcare_positive,"[100,120],[187,227]",0.1911
+2,Healthcare_positive,"[100,120],[155,175],[220,240]",0.239
+3,Healthcare_positive,"[102,122],[139,159],[228,251]",0.241
+4,Healthcare_positive,"[100,120],[194,234]",0.2041
+5,Healthcare_positive,"[102,122],[201,235]",0.2116
+6,Healthcare_positive,"[118,151],[214,234]",0.2748

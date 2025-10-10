@@ -1,0 +1,38 @@
+Temporal Patterns:
+- Pri-patterns (priority order): Outlier > Trend > Seasonal > Volatility
+- Sub-patterns:
+  - Outlier: Sudden Spike, Level Shift
+  - Trend: Upward, Downward
+  - Seasonal: Fixed, Shifting
+  - Volatility: Increased, Decreased
+- If Representative Subsequences plots are provided, integrate visual cues with statistical analysis.
+
+Quality Assurance:
+- Predictions must show realistic time series dynamics with natural variability.
+- Avoid over-smoothing or rigidly copying recent fluctuations.
+
+ITERATIVE SINGLE-STEP FORECASTING_NUM:
+Use an iterative approach where each prediction step builds upon all previous predictions:
+
+Step 1: Predict t+1 using Recent Subsequence + Representative Subsequences
+Step 2: Predict t+2 using Recent Subsequence + t+1 prediction + Representative Subsequences  
+Step 3: Predict t+3 using Recent Subsequence + t+1,t+2 predictions + Representative Subsequences
+...continue until <<PreLen>> values are predicted
+
+This ensures temporal consistency and reduces error propagation by incorporating evolving context.
+
+Goal 1: Pattern-Guided Iterative FORECASTING_NUM (Pred_Series)
+- Predict exactly <<PreLen>> values using the iterative single-step approach above.
+- Each step uses expanding context: Recent Subsequence + all previous predictions.
+- Output exactly <<PreLen>> floats with natural time series behavior.
+
+Goal 2: Contribution Assessment (Impact_Scores)
+- Assign Impact Score to each Representative Subsequence based on pattern similarity and relevance.
+- All scores must sum to 1.000 with exactly 3 decimal places.
+- Number of scores = number of Representative Subsequences.
+
+FINAL OUTPUT FORMAT (strict JSON only):
+{
+"Pred_Series": [-0.3845145903792176, -0.3721458962847329, -0.3598472051638274, -0.25595734759639727],
+"Impact_Scores": [0.123, 0.456, 0.321, 0.100]
+}

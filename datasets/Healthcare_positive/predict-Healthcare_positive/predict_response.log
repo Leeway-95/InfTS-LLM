@@ -1,0 +1,388 @@
+
+================================================================================
+Timestamp: 2025-09-15 01:17:00
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 1 | 2025-09-15 01:17:00
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:17:03
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 2 | 2025-09-15 01:17:03
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:17:06
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 3 | 2025-09-15 01:17:06
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:17:09
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 4 | 2025-09-15 01:17:09
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:17:12
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 5 | 2025-09-15 01:17:12
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:17:15
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 6 | 2025-09-15 01:17:15
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:17:19
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 1 | 2025-09-15 01:17:19
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "exceeded the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:17:22
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 2 | 2025-09-15 01:17:22
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "exceeded the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:17:25
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 3 | 2025-09-15 01:17:25
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "exceeded the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:17:28
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 4 | 2025-09-15 01:17:28
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "exceeded the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:17:31
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 5 | 2025-09-15 01:17:31
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "exceeded the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:17:34
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 6 | 2025-09-15 01:17:34
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "exceeded the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:17:41
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 01:17:41
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["exceeded the average", "did not exceed the average"],
+  "Impact_Scores": [0.500, 0.500]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:17:48
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 01:17:48
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "not did not exceed the average", "exceeded the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:17:55
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 01:17:55
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["exceeded the average", "not did not exceed the average", "exceeded the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 01:18:01
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 01:18:01
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "not did not exceed the average"],
+  "Impact_Scores": [0.500, 0.500]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:18:07
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 01:18:07
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "exceeded the average", "did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 01:18:13
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 01:18:13
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "did not exceed the average"],
+  "Impact_Scores": [0.500, 0.500]
+}
+
+================================================================================
+Timestamp: 2025-09-15 04:38:46
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 1 | 2025-09-15 04:38:46
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:38:49
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 2 | 2025-09-15 04:38:49
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:38:52
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 3 | 2025-09-15 04:38:52
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:38:55
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 4 | 2025-09-15 04:38:55
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:38:58
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 5 | 2025-09-15 04:38:58
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:39:01
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: TimeCAP | Index: 6 | 2025-09-15 04:39:01
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:39:04
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 1 | 2025-09-15 04:39:04
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["not did not exceed the average", "not did not exceed the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 04:39:08
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 2 | 2025-09-15 04:39:08
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "exceeded the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 04:39:10
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 3 | 2025-09-15 04:39:10
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["exceeded the average", "exceeded the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:39:13
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 4 | 2025-09-15 04:39:13
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["exceeded the average", "exceeded the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:39:16
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 5 | 2025-09-15 04:39:16
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["exceeded the average", "not did not exceed the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:39:18
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM | Index: 6 | 2025-09-15 04:39:18
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["exceeded the average", "exceeded the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:39:25
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 04:39:25
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "did not exceed the average"],
+  "Impact_Scores": [0.500, 0.500]
+}
+
+================================================================================
+Timestamp: 2025-09-15 04:39:31
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 04:39:31
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "did not exceed the average", "exceeded the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 04:39:37
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 04:39:37
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "did not exceed the average", "exceeded the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+
+================================================================================
+Timestamp: 2025-09-15 04:39:42
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 04:39:42
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["exceeded the average", "did not exceed the average"],
+  "Impact_Scores": [0.500, 0.500]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:39:47
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 04:39:47
+================================================================================
+LLM Response:
+```json
+{
+  "Pred_Labels": ["exceeded the average", "exceeded the average", "not did not exceed the average"],
+  "Impact_Scores": [0.333, 0.333, 0.334]
+}
+```
+
+================================================================================
+Timestamp: 2025-09-15 04:39:53
+Task: FORECASTING_EVENT | Dataset: Healthcare_positive | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 04:39:53
+================================================================================
+LLM Response:
+{
+  "Pred_Labels": ["exceeded the average", "did not exceed the average"],
+  "Impact_Scores": [0.500, 0.500]
+}

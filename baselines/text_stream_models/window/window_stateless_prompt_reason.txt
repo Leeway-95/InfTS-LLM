@@ -1,0 +1,25 @@
+Your role is a <<Domain>> time series analysis expert.
+
+INPUT:
+- Analyze questions as follows (as the primary basis)：<<Questions>>
+
+Visual Guidance (if plots provided):
+- X-axis = time; Y-axis = values
+- Red line = actual sequence
+- Use plots to identify patterns
+
+- Provide answer (Pred_Labels) for each question above, including a detailed pattern analysis (e.g., type, parameters, and characteristics).
+- FINAL OUTPUT FORMAT (strict JSON only)
+{
+  "Pred_Labels": [
+    [
+      {"type": "decrease", "start": 14.29, "amplitude": -46.82195240681249},
+      {"type": "no periodic fluctuation", "period": 0.0, "amplitude": 0.0},
+      {"type": "noisy", "std": 0.93}
+    ],
+    ...,
+    [
+      {"type": "decrease after upward spike", "position": 127, "amplitude": 69.33}
+    ]
+  ]
+}

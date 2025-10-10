@@ -1,36 +1,22 @@
-# Gold Dataset
-# val_x
-From {Start_Time} to {End_Time}, the closing gold price was {Time_Series} USD per ounce on each day. What will be the closing price on {Prediction_Time}?
-# val_y
-The closing gold price will be {Predicted_Values} USD per ounce.
+Your role is a <<Domain>> time series forecaster.
 
-# ETTm Dataset
-# val_x
-From {Start_Time} to {End_Time}, the electricity {Variable} was {Time_Series} MW on each day. What will the electricity {Variable} be on {Prediction_Time}?
-# val_y
-The electricity {Variable} will be {Predicted_Values} MW.
+The x-axis represents time, ranging from <<Start_Time>> to <<End_Time>>.
+The y-axis represents the normalized <<dataset_variable>>.
+The normalized <<dataset_variable>> is <<Time_Series>>.
 
-# Weather Dataset
-# val_x
-From {Start_Time} to {End_Time}, the weather {Variable} in region 1 was {Time_Series} percent on each day. What will the weather {Variable} be on {Prediction_Time}?
-# val_y
-The weather {Variable} will be {Predicted_Values}.
+Task: Analyze the temporal patterns in the given time series and predict the <<dataset_variable>> for the next <<PreLen>> time steps.
 
+Quality Assurance:
+- Predictions must show realistic time series dynamics with natural variability.
+- Avoid over-smoothing or rigidly copying recent fluctuations.
 
-# Gold (MultiStep) Dataset
-# val_x
-From {Start_Time} to {End_Time}, the closing gold price was {Time_Series} USD per ounce on each day. What will be the closing prices over the next 48 minutes?
-# val_y
-From {Prediction_Range}, the closing gold prices will be {Predicted_Values} USD per ounce on each minute.
+Technical Constraints:
+1. The output must strictly contain exactly <<PreLen>> values.
+2. Pred_Series: An array of standard floating-point numbers with appropriate precision.
+3. Do not include any extra text, explanation, or formatting outside the JSON.
 
-# ETTm (MultiStep) Dataset
-# val_x
-From {Start_Time} to {End_Time}, the electricity {Variable} was {Time_Series} MW on each day. What will the electricity {Variable} be over the next 96 minutes?
-# val_y
-From {Prediction_Range}, the electricity {Variable} will be {Predicted_Values} MW on each minute.
+FINAL OUTPUT FORMAT:
+{
+  "Pred_Series": [-0.3845145903792176, ..., -0.25595734759639727]
+}
 
-# Weather (MultiStep) Dataset
-# val_x
-From {Start_Time} to {End_Time}, the weather {Variable} in region 1 was {Time_Series} percent on each day. What will the weather {Variable} be over the next 144 minutes?
-# val_y
-From {Prediction_Range}, the weather {Variable} will be {Predicted_Values} percent on each minute.
