@@ -85,9 +85,6 @@ Prompt_PATHS = {
     "InfTS-LLM-Forecast-Event": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Forecast_Event.txt"),
     "PromptCast": os.path.join(_project_root, "baselines/time_series_models/prompt/promptcast/promptcast_prompt.txt"),
     "TimeCP": os.path.join(_project_root, "baselines/time_series_models/prompt/timecp/timecp_prompt.txt"),
-    "TimeCAP": os.path.join(_project_root, "baselines/time_series_models/prompt/timecap/timecap_prompt.txt"),
-    "Inf-LLM-Understand": os.path.join(_project_root, "baselines/text_stream_models/window_stateful/window_stateful_prompt_understand.txt"),
-    "Inf-LLM-Reason": os.path.join(_project_root, "baselines/text_stream_models/window_stateful/window_stateful_prompt_reason.txt"),
     "Window-Understand": os.path.join(_project_root, "baselines/text_stream_models/Window/window_stateful_prompt_understand.txt"),
     "Window-Reason": os.path.join(_project_root, "baselines/text_stream_models/Window/window_stateful_prompt_reason.txt")
 }
