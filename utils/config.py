@@ -83,10 +83,10 @@ Prompt_PATHS = {
     "InfTS-LLM-Reason": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Reason.txt"),
     "InfTS-LLM-Forecast": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Forecast.txt"),
     "InfTS-LLM-Forecast-Event": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Forecast_Event.txt"),
-    "PromptCast": os.path.join(_project_root, "baselines/time_series_LLM/prompt/promptcast/promptcast_prompt.txt"),
-    "TimeCP": os.path.join(_project_root, "baselines/time_series_LLM/prompt/timecp/timecp_prompt.txt"),
-    "Window-Understand": os.path.join(_project_root, "baselines/text_stream_LLM/Window/window_stateful_prompt_understand.txt"),
-    "Window-Reason": os.path.join(_project_root, "baselines/text_stream_LLM/Window/window_stateful_prompt_reason.txt")
+    "PromptCast": os.path.join(_project_root, "baselines/time_series_llm/prompt/promptcast/promptcast_prompt.txt"),
+    "TimeCP": os.path.join(_project_root, "baselines/time_series_llm/prompt/timecp/timecp_prompt.txt"),
+    "Window-Understand": os.path.join(_project_root, "baselines/text_stream_llm/Window/window_stateful_prompt_understand.txt"),
+    "Window-Reason": os.path.join(_project_root, "baselines/text_stream_llm/Window/window_stateful_prompt_reason.txt")
 }
 Memory_Pool_PATH = os.path.join(_project_root, 'model_instructor/PCoT/memory_pool.json')  # 内存池路径
 DEFAULT_MEMORY_POOL_MAX_SIZE = 20      # 内存池REP最大值配置
