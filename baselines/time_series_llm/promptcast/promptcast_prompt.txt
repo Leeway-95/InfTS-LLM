@@ -1,0 +1,22 @@
+Your role is a <<Domain>> time series forecaster.
+
+The x-axis represents time, ranging from <<Start_Time>> to <<End_Time>>.
+The y-axis represents the normalized <<dataset_variable>>.
+The normalized <<dataset_variable>> is <<Time_Series>>.
+
+Task: Analyze the temporal patterns in the given time series and predict the <<dataset_variable>> for the next <<PreLen>> time steps.
+
+Quality Assurance:
+- Predictions must show realistic time series dynamics with natural variability.
+- Avoid over-smoothing or rigidly copying recent fluctuations.
+
+Technical Constraints:
+1. The output must strictly contain exactly <<PreLen>> values.
+2. Pred_Series: An array of standard floating-point numbers with appropriate precision.
+3. Do not include any extra text, explanation, or formatting outside the JSON.
+
+FINAL OUTPUT FORMAT:
+{
+  "Pred_Series": [-0.3845145903792176, ..., -0.25595734759639727]
+}
+

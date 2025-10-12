@@ -1,0 +1,34 @@
+# val_x
+# CT Dataset
+From May 01, 2019, Wednesday to May 15, 2019, Wednesday, the average temperature of region 1 was 54, 58, 53, 59, 56, 58, 58, 63, 57, 63, 65, 53, 46, 48, 56 degree on each day. What are the temperatures going to be on the next 7 days?
+From May 02, 2019, Thursday to May 16, 2019, Thursday, the average temperature of region 1 was 58, 53, 59, 56, 58, 58, 63, 57, 63, 65, 53, 46, 48, 56, 64 degree on each day. What are the temperatures going to be on the next 7 days?
+From May 03, 2019, Friday to May 17, 2019, Friday, the average temperature of region 1 was 53, 59, 56, 58, 58, 63, 57, 63, 65, 53, 46, 48, 56, 64, 69 degree on each day. What are the temperatures going to be on the next 7 days?
+From May 04, 2019, Saturday to May 18, 2019, Saturday, the average temperature of region 1 was 59, 56, 58, 58, 63, 57, 63, 65, 53, 46, 48, 56, 64, 69, 68 degree on each day. What are the temperatures going to be on the next 7 days?
+# ECL Dataset
+From February 01, 2014, Saturday to February 15, 2014, Saturday, client 1 consumed 13245, 13717, 13189, 13839, 13012, 13585, 13688, 13399, 13324, 13200, 13251, 13113, 12678, 14125, 13321 kWh of electricity on each day. What are the consumptions going to be on the next 7 days?
+From February 02, 2014, Sunday to February 16, 2014, Sunday, client 1 consumed 13717, 13189, 13839, 13012, 13585, 13688, 13399, 13324, 13200, 13251, 13113, 12678, 14125, 13321, 13476 kWh of electricity on each day. What are the consumptions going to be on the next 7 days?
+From February 03, 2014, Monday to February 17, 2014, Monday, client 1 consumed 13189, 13839, 13012, 13585, 13688, 13399, 13324, 13200, 13251, 13113, 12678, 14125, 13321, 13476, 13142 kWh of electricity on each day. What are the consumptions going to be on the next 7 days?
+From February 04, 2014, Tuesday to February 18, 2014, Tuesday, client 1 consumed 13839, 13012, 13585, 13688, 13399, 13324, 13200, 13251, 13113, 12678, 14125, 13321, 13476, 13142, 13637 kWh of electricity on each day. What are the consumptions going to be on the next 7 days?
+# SG Dataset
+From April 24, 2021, Saturday to May 08, 2021, Saturday, there were 6, 8, 6, 15, 12, 4, 13, 7, 8, 12, 16, 9, 11, 18, 10 people visiting POI 1 on each day. How many people will visit POI 1 on the next 7 days?
+From April 25, 2021, Sunday to May 09, 2021, Sunday, there were 8, 6, 15, 12, 4, 13, 7, 8, 12, 16, 9, 11, 18, 10, 11 people visiting POI 1 on each day. How many people will visit POI 1 on the next 7 days?
+From April 26, 2021, Monday to May 10, 2021, Monday, there were 6, 15, 12, 4, 13, 7, 8, 12, 16, 9, 11, 18, 10, 11, 11 people visiting POI 1 on each day. How many people will visit POI 1 on the next 7 days?
+From April 27, 2021, Tuesday to May 11, 2021, Tuesday, there were 15, 12, 4, 13, 7, 8, 12, 16, 9, 11, 18, 10, 11, 11, 8 people visiting POI 1 on each day. How many people will visit POI 1 on the next 7 days?
+
+
+# val_y
+# CT Dataset
+From May 16, 2019, Thursday to May 22, 2019, Wednesday, the temperature will be 64, 69, 68, 63, 78, 68, 66 degree.
+From May 17, 2019, Friday to May 23, 2019, Thursday, the temperature will be 69, 68, 63, 78, 68, 66, 65 degree.
+From May 18, 2019, Saturday to May 24, 2019, Friday, the temperature will be 68, 63, 78, 68, 66, 65, 71 degree.
+From May 19, 2019, Sunday to May 25, 2019, Saturday, the temperature will be 63, 78, 68, 66, 65, 71, 64 degree.
+# ECL Dataset
+From February 16, 2014, Sunday to February 22, 2014, Saturday, this client will consume 13476, 13142, 13637, 13423, 12783, 12949, 13187 kWh of electricity on each day.
+From February 17, 2014, Monday to February 23, 2014, Sunday, this client will consume 13142, 13637, 13423, 12783, 12949, 13187, 12937 kWh of electricity on each day.
+From February 18, 2014, Tuesday to February 24, 2014, Monday, this client will consume 13637, 13423, 12783, 12949, 13187, 12937, 12752 kWh of electricity on each day.
+From February 19, 2014, Wednesday to February 25, 2014, Tuesday, this client will consume 13423, 12783, 12949, 13187, 12937, 12752, 12624 kWh of electricity on each day.
+# SG Dataset
+From May 09, 2021, Sunday to May 15, 2021, Saturday, there will be 11, 11, 8, 13, 10, 18, 19 visitors.
+From May 10, 2021, Monday to May 16, 2021, Sunday, there will be 11, 8, 13, 10, 18, 19, 21 visitors.
+From May 11, 2021, Tuesday to May 17, 2021, Monday, there will be 8, 13, 10, 18, 19, 21, 15 visitors.
+From May 12, 2021, Wednesday to May 18, 2021, Tuesday, there will be 13, 10, 18, 19, 21, 15, 17 visitors.
