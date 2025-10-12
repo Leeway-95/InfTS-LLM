@@ -72,10 +72,10 @@ KNN_CNT = 3                            # KNN邻居数量
 OUTPUT_DETECTION_IMAGE = False         # 是否输出Detection(ClaSP)图像
 
 # model_instructor 相关配置
-LLM_HOST = "http://gpt-proxy.jd.com"  # LLM服务主机地址
-API_PATH = "/v1/chat/completions"      # API路径
+LLM_HOST = "http://gpt-proxy.xx.com"  # LLM服务主机地址
+API_PATH = "/v1/chat/completions"     # API路径
 LLM_API_KEY = "d3da8d77-ca1f-47f3-8442-9eb561e3d9cc"  # API密钥
-MODEL = "gpt-4o-mini"                  # 使用的LLM模型
+MODEL = "gpt-4o"                    # 使用的LLM模型
 MAX_TOKENS = 12000                  # 最大Tokens限制
 TEMPERATURE = 0.2                   # 温度设置
 Prompt_PATHS = {
@@ -92,13 +92,13 @@ Prompt_PATHS = {
     "Window-Reason": os.path.join(_project_root, "baselines/text_stream_models/Window/window_stateful_prompt_reason.txt")
 }
 Memory_Pool_PATH = os.path.join(_project_root, 'model_instructor/PCoT/memory_pool.json')  # 内存池路径
-DEFAULT_MEMORY_POOL_MAX_SIZE = 20 # 内存池REP最大值配置
+DEFAULT_MEMORY_POOL_MAX_SIZE = 20      # 内存池REP最大值配置
 MEM_TOP_K = 5                          # 内存的Top-K数量
 MAX_TOP_HM_COUNT = 5                   # 内存最大HM保留数量
 MEMORY_POOL_MAX_ITEMS = 7              # 内存池最大项目数
 MODE_FILE = 'FILE'                     # 文件模式
 MEMORY_STORAGE_MODE = MODE_FILE        # 内存存储模式
-SAVE_MEMORY_POOL = True               # 是否保存内存池
+SAVE_MEMORY_POOL = True                # 是否保存内存池
 # 预测长度和历史长度
 PreLen = [48]
 HistLen = [192]
@@ -116,9 +116,9 @@ DATASETS_PATH = "../datasets"
 LOGS_DIR = "../logs"
 OUTPUT_PREDICT_IMAGE = False           # 是否输出PREDICT图像
 LOG_LLM_METRICS_PATH = os.path.join(_project_root, 'logs/metrics_call_llm.csv')  # LLM指标日志路径
-LOG_EXP_METRICS_PATH = os.path.join(_project_root, 'logs/metrics_exp_res.csv')  # 实验结果指标日志路径
+LOG_EXP_METRICS_PATH = os.path.join(_project_root, 'logs/metrics_exp_res.csv')   # 实验结果指标日志路径
 
 # Stream 相关配置
 PARALLELISM = 4                        # 并行度
-FLINK_JOB_NAME = "InfTS-LLM"            # Flink作业名称
+FLINK_JOB_NAME = "InfTS-LLM"           # Flink作业名称
 CHECKPOINT_INTERVAL = 60000            # 检查点间隔（毫秒）
