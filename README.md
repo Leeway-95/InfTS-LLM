@@ -20,7 +20,7 @@ InfTS-LLM can be directly applied to any LLMs without retraining:
 ### Example Demonstration
 Here is an example of InfTS-LLM, enabling users to interact with the LLM for understanding, reasoning, and forecasting over streaming time series.
 <p align="left">
-  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/9da39df5-8bc8-48c1-b48f-d202a4fcf1e9" />
+  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/ec3874ba-90db-4c24-9a4b-7a2a4fe2d69e" />
 </p>
 
 ## Abstract
