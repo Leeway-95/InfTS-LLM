@@ -1,11 +1,11 @@
 <div align="center">
-  <h2><b> <img src="https://github.com/user-attachments/assets/d275986b-27c3-4462-afd7-5c58a836a0b8" style="width:30px;height:30px;"> InfTS-LLM: Beyond-Context Alignment of Streaming Time Series with Large Language Models </b></h2>
+  <h2><b> <img src="https://github.com/user-attachments/assets/d275986b-27c3-4462-afd7-5c58a836a0b8" style="width:30px;height:30px;"> InfTS-LLM: Aligning Streaming Time Series with LLMs for Beyond-Context Question Answering </b></h2>
 </div>
 
 [![GitHub Stars](https://img.shields.io/github/stars/Leeway-95/InfTS-LLM?style=social)](https://github.com/Leeway-95/InfTS-LLM/stargazers)
 ![Topic](https://img.shields.io/badge/Streaming%20Time%20Series%20&%20LLMs%20-%20Infinite--Alignment-blueviolet)
 
-This repository provides the code for our paper, which introduces a zero-shot framework for beyond-context alignment between streaming time series with LLMs through LLM-friendly representations, enabling temporal understanding, reasoning, and forecasting.
+This repository provides the code and demonstration for our paper, which introduces InfTS-LLM, a zero-shot framework for beyond-context alignment between streaming time series with LLMs for time series question answering.
 >  ✨ If you find our work useful for your research, please consider giving it a <strong>star ⭐ on GitHub</strong> to stay updated with future releases.
 
 ## Demonstration
@@ -18,19 +18,19 @@ InfTS-LLM can be directly applied to any LLMs without retraining:
 -->
 
 ### Example Demonstration
-Here is an example of InfTS-LLM, enabling users to interact with the LLM for understanding, reasoning, and forecasting over streaming time series.
+Here is an example of InfTS-LLM, enabling users to interact with LLMs for temporal understanding, reasoning, and forecasting over streaming time series.
 <p align="left">
   <img width="1200" alt="image" src="https://github.com/user-attachments/assets/ec3874ba-90db-4c24-9a4b-7a2a4fe2d69e" />
 </p>
 
 ## Abstract
-We address fundamental limitations of multimodal Large Language Models (LLMs) in time-series monitoring scenarios: **Beyond-context Alignment**. Streaming time series often appear as continuous observation scenarios, such as database usage monitoring. Existing methods ignore beyond-context alignment between streaming time series and LLMs to support the above scenarios. The primary challenges are continuous temporal-pattern detection and beyond-context temporal reasoning. This paper introduces **InfTS-LLM**, including two components: (1) A **Representative Detector** that extracts temporal semantics by representative subsequences for continuous temporal-pattern detection; and (2) A **Feedback Instructor** leverages representative subsequences to generate images and construct pattern-guided chains of thought, enabling LLMs to provide feedback on global impact scores that combine with local representative scores to sustain a memory pool for beyond-context temporal reasoning. Extensive evaluations across multiple datasets show that InfTS-LLM achieves state-of-the-art results. Further analysis highlights modality-specific strengths: visual modality boosts understanding, textual modality supports reasoning, and numerical time series enhance forecasting.
+We address a fundamental limitation of multimodal Large Language Models (LLMs): **Beyond-Context Alignment** for Time Series Question Answering (TSQA). Streaming time
+series commonly arise from sensors in monitoring scenarios with continuous, extremely long observations, such as database usage monitoring. Existing methods overlook **Representative Subsequences** of streaming time series for achieving beyond-context alignment with LLMs for TSQA tasks. The primary challenges are continuous temporal-pattern detection and beyond-context temporal reasoning. This paper introduces **InfTS-LLM**, including two components: (1) a **Representative Detector** that extracts representative subsequences containing temporal semantics by the cascade retraced detection algorithm for continuous temporalpattern detection; and (2) a **Feedback Instructor** that leverages LLM-friendly representations of these subsequences to construct pattern-guided chains of thought for deep reasoning, while enabling LLMs to generate feedback scores that sustain the memory pool and its eviction mechanism for beyond-context temporal reasoning. Extensive evaluations across multiple datasets demonstrate that InfTS-LLM achieves state-of-the-art results. Further analysis highlights modality-specific strengths: the visual modality enhances understanding, the textual modality boosts reasoning, and the numerical modality improves forecasting.
 
 <p align="left">
-  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/1d12502d-51b6-4456-bedc-d2f90733159f" />
+  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/a397ea92-21be-4bf4-b84d-2cebeb0526dc" />
 </p>
-
-Inspired by the process of “**skipping a stone on water**”, splashes and ripples mark the trajectory, while a stone flying straight across leaves no trace. In this process, each splash corresponds to a **Representative Subsequence** identified by the Representative Detector, serving as a visible trace of streaming time series. Similarly, the Feedback Instructor maintains these traces by retaining high-scoring subsequences in memory, analogous to ripples that persist for a period before gradually fading.
+Inspired by the process of “**skipping a stone on water**”, splashes and ripples mark the trajectory, while a stone flying straight across leaves no trace. In this process, each splash corresponds to a **Representative Subsequence** identified by the Representative Detector, serving as a visible trace of streaming time series. Similarly, the Feedback Instructor maintains these traces by retaining high-scoring subsequences in the Memory Pool, analogous to ripples that persist for a period before gradually fading.
 
 ## Dependencies
 * Python 3.12
