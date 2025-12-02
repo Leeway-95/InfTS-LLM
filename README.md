@@ -30,7 +30,8 @@ series commonly arise from sensors in monitoring scenarios with continuous, extr
 <p align="left">
   <img width="1200" alt="image" src="https://github.com/user-attachments/assets/a397ea92-21be-4bf4-b84d-2cebeb0526dc" />
 </p>
-Inspired by the process of “**skipping a stone on water**”, splashes and ripples mark the trajectory, while a stone flying straight across leaves no trace. In this process, each splash corresponds to a **Representative Subsequence** identified by the Representative Detector, serving as a visible trace of streaming time series. Similarly, the Feedback Instructor maintains these traces by retaining high-scoring subsequences in the Memory Pool, analogous to ripples that persist for a period before gradually fading.
+
+Inspired by the process of **_“skipping a stone on water”_**, splashes and ripples mark the trajectory, while a stone flying straight across leaves no trace. In this process, each splash corresponds to a **Representative Subsequence** identified by the Representative Detector, serving as a visible trace of streaming time series. Similarly, the Feedback Instructor maintains these traces by retaining high-scoring subsequences in the Memory Pool, analogous to ripples that persist for a period before gradually fading.
 
 ## Dependencies
 * Python 3.12
