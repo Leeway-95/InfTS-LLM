@@ -5,7 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Leeway-95/InfTS-LLM?style=social)](https://github.com/Leeway-95/InfTS-LLM/stargazers)
 ![Topic](https://img.shields.io/badge/Streaming%20Time%20Series%20&%20LLMs%20-%20Infinite--Alignment-blueviolet)
 
-This repository provides the code and demonstration for our paper, which introduces InfTS-LLM, a zero-shot framework for beyond-context alignment between streaming time series with LLMs for time series question answering.
+This repository provides the code and demonstration for our paper, which introduces InfTS-LLM, a zero-shot framework for beyond-context alignment between streaming time series with LLMs for Time Series Question Answering (TSQA).
 >  ✨ If you find our work useful for your research, please consider giving it a <strong>star ⭐ on GitHub</strong> to stay updated with future releases.
 
 ## Demonstration
@@ -20,15 +20,20 @@ InfTS-LLM can be directly applied to any LLMs without retraining:
 ### Example Demonstration
 Here is an example of InfTS-LLM, enabling users to interact with LLMs for temporal understanding, reasoning, and forecasting over streaming time series.
 <p align="left">
-  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/ec3874ba-90db-4c24-9a4b-7a2a4fe2d69e" />
+  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/ffba98a4-4179-43d5-99f8-7cfa8ab2f5c2" />
 </p>
 
 ## Abstract
-We address a fundamental limitation of multimodal Large Language Models (LLMs): **Beyond-Context Alignment** for Time Series Question Answering (TSQA). Streaming time
-series commonly arise from sensors in monitoring scenarios with continuous, extremely long observations, such as database usage monitoring. Existing methods overlook **Representative Subsequences** of streaming time series for achieving beyond-context alignment with LLMs for TSQA tasks. The primary challenges are continuous temporal-pattern detection and beyond-context temporal reasoning. This paper introduces **InfTS-LLM**, including two components: (1) a **Representative Detector** that extracts representative subsequences containing temporal semantics by the cascade retraced detection algorithm for continuous temporal-pattern detection; and (2) a **Feedback Instructor** that leverages LLM-friendly representations of these subsequences to construct pattern-guided chains of thought for deep reasoning, while enabling LLMs to generate feedback scores that sustain the memory pool and its eviction mechanism for beyond-context temporal reasoning. Extensive evaluations across multiple datasets demonstrate that InfTS-LLM achieves state-of-the-art results. Further analysis highlights modality-specific strengths: the visual modality enhances understanding, the textual modality boosts reasoning, and the numerical modality improves forecasting.
+We address a fundamental limitation of multimodal Large Language Models (LLMs): **Beyond-Context Alignment** for TSQA that refers to answering natural language questions over numerical sequences with temporal semantics and relations. Recently, multimodal Large Language Models (LLMs) have been increasingly applied to TSQA, such as database usage monitoring, leveraging their language capabilities to understand, reason, and forecast multiple streaming time-series metrics. 
+
+However, all existing TSQA methods are limited by the finite in-context length of LLMs. This limitation introduces fundamental challenges in extremely long sequences, including efficient temporal-pattern detection and beyond-context temporal coverage. 
+
+To solve these challenges, this paper proposes **InfTS-LLM**, a zero-shot framework including two components: (a) a Representative Detector that extracts representative subsequences with temporal semantics using a linear-time Cascade Retraced Detection algorithm; and (b) a Feedback Instructor that construct pattern-guided chains of thought for deep reasoning, while enabling LLMs to generate feedback scores that sustain the memory pool with an effective eviction mechanism. 
+
+Extensive evaluations on multiple datasets demonstrate that InfTS-LLM achieves state-of-the-art performance. Further analysis reveals modality-specific strengths: the visual modality enhances understanding, the textual modality boosts reasoning, and the numerical modality improves forecasting.
 
 <p align="left">
-  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/a397ea92-21be-4bf4-b84d-2cebeb0526dc" />
+  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/c190cbd6-9ecf-40c2-a221-ad13371efe53" />
 </p>
 
 Inspired by the process of **_“skipping a stone on water”_**, splashes and ripples mark the trajectory, while a stone flying straight across leaves no trace. In this process, each splash corresponds to a **Representative Subsequence** identified by the Representative Detector, serving as a visible trace of streaming time series. Similarly, the Feedback Instructor maintains these traces by retaining high-scoring subsequences in the Memory Pool, analogous to ripples that persist for a period before gradually fading.
@@ -46,10 +51,10 @@ Inspired by the process of **_“skipping a stone on water”_**, splashes and r
 
 ## Datasets
 1. Gold datasets can be obtained from our **datasets directory**.
-2. Numerical forecasting task datasets can be download from [ETTm](https://drive.google.com/drive/folders/1eXR9w5eW2IMaJzbKWuMjTvdXehvYpMKA) and [Weather](https://drive.google.com/drive/folders/1cKPfcZamEWcF48ZvXyubwhkuz84tupu4).
-3. Event forecasting task datasets can be download from [Finance](https://github.com/geon0325/TimeCAP/tree/main/dataset/finance), [Healthcare](https://github.com/geon0325/TimeCAP/tree/main/dataset/healthcare), and [Weather](https://github.com/geon0325/TimeCAP/tree/main/dataset/weather).
-4. Understanding task dataset can be download from [TSQA](https://huggingface.co/datasets/ChengsenWang/TSQA).
-5. Reasoning task datasets can be download from [AIOps](https://github.com/netmanaiops/kpi-anomaly-detection), [WeatherQA](https://www.bgc-jena.mpg.de/wetter), and [NAB](https://github.com/numenta/NAB), [Oracle](https://zenodo.org/records/6955909), and [MCQ2](https://github.com/behavioral-data/TSandLanguage)
+2. Numerical forecasting task datasets can be downloaded from [ETTm](https://drive.google.com/drive/folders/1eXR9w5eW2IMaJzbKWuMjTvdXehvYpMKA) and [Weather](https://drive.google.com/drive/folders/1cKPfcZamEWcF48ZvXyubwhkuz84tupu4).
+3. Event forecasting task datasets can be downloaded from [Finance](https://github.com/geon0325/TimeCAP/tree/main/dataset/finance), [Healthcare](https://github.com/geon0325/TimeCAP/tree/main/dataset/healthcare), and [Weather](https://github.com/geon0325/TimeCAP/tree/main/dataset/weather).
+4. Understanding task dataset can be downloaded from [TSQA](https://huggingface.co/datasets/ChengsenWang/TSQA).
+5. Reasoning task datasets can be downloaded from [AIOps](https://github.com/netmanaiops/kpi-anomaly-detection), [WeatherQA](https://www.bgc-jena.mpg.de/wetter), and [NAB](https://github.com/numenta/NAB), [Oracle](https://zenodo.org/records/6955909), and [MCQ2](https://github.com/behavioral-data/TSandLanguage)
    
 ## Usages
 
