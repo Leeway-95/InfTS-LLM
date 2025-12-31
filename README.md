@@ -32,10 +32,10 @@ To address these challenges, this paper proposes **InfTS-LLM**, a zero-shot meth
 Extensive evaluations on multiple datasets demonstrate that InfTS-LLM achieves state-of-the-art performance. Further analysis reveals strengths across time series representations: visual representations enhance understanding, textual representations boost reasoning, and numerical representations improve forecasting.
 
 <p align="left">
-  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/00bf8a7b-f8c1-40bd-9e07-9a3455043f23" />
+  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/f17676f6-c797-4c74-bd1c-2f63ff9ecda3" />
 </p>
 
-**_“Skipping a stone on water”_**: First, each **_“hit”_** and **_“bounce”_** corresponds to a temporal-pattern boundary. Second, each **_“splash”_** corresponds to a representative subsequence. Third, each  **_“ripple”_** corresponds to the cached historical subsequence.
+**_“Skipping a stone on water”_**: First, each **_“hit”_** and **_“bounce”_** corresponds to a temporal-pattern boundary. Second, each **_“splash”_** corresponds to a representative subsequence. Third, the  **_“ripples”_** correspond to cached historical subsequences.
 
 ## Dependencies
 * Python 3.12
