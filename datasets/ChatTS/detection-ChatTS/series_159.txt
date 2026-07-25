@@ -1,0 +1,38 @@
+File: series_159
+Data points: 768
+Detected representative subsequence: 4
+
+Representative subsequence 1: position=[83,133]
+Representative subsequence 2: position=[217,257]
+Representative subsequence 3: position=[340,406]
+Representative subsequence 4: position=[448,512]
+
+==== ClaSP Scores ====
+Timestep, Score
+100, 0.880118
+120, 0.851864
+140, 0.810052
+160, 0.789944
+180, 0.788963
+200, 0.804012
+220, 0.827540
+240, 0.831584
+260, 0.804300
+280, 0.787242
+300, 0.771488
+320, 0.770802
+340, 0.801742
+360, 0.817689
+380, 0.821239
+400, 0.833720
+420, 0.820663
+440, 0.807986
+460, 0.811202
+480, 0.810215
+500, 0.815136
+520, 0.789104
+540, 0.776255
+560, 0.802513
+580, 0.756841
+600, 0.726482
+620, 0.704031

@@ -510,7 +510,7 @@ def parse_llm_output(output, pred_len=None, representative_data=None, task_type=
         output: LLM的原始输出
         pred_len: 预测长度
         representative_data: 代表性数据
-        task_type: 任务类型 (UNDERSTANDING/FORECASTING_NUM/REASONING)
+        task_type: 任务类型 (UNDERSTANDING//REASONING)
         method: 方法名称
     
     Returns:
@@ -602,11 +602,11 @@ def parse_llm_output(output, pred_len=None, representative_data=None, task_type=
             # 如果解析结果是列表，说明输入是纯数组，需要包装成字典
             if isinstance(parsed_json, list):
                 # 根据任务类型判断这是什么类型的数据
-                if task_type == "FORECASTING_NUM":
+                if task_type == "":
                     response_data = {"Pred_Series": parsed_json}
                 elif task_type == "UNDERSTANDING":
                     response_data = {"Pred_Labels": parsed_json}
-                elif task_type == "FORECASTING_EVENT":
+                elif task_type == "PREDICTION":
                     response_data = {"Pred_Labels": parsed_json}
                 elif task_type == "REASONING":
                     response_data = {"Impact_Scores": parsed_json}
@@ -664,22 +664,14 @@ def parse_llm_output(output, pred_len=None, representative_data=None, task_type=
             impact_scores = []
 
         # 根据任务类型和方法进行特定处理
-        if task_type == "FORECASTING_NUM":
-            if method in OUR_Method:
-                # InfTS-LLM, InfTS-LLM (+v) 在预测任务中应该存储 Impact_Scores 到 predict_summary.csv
-                # 对于FORECASTING_NUM任务，返回预测序列和影响分数，不返回标签
-                return [], json.dumps(pred_series), json.dumps(impact_scores)
-            elif method in BASELINE_FORECASTING_NUM:
-                # PromptCast, TimeCP 在预测任务中应该存储 Pred_Series
-                return [], json.dumps(pred_series), json.dumps([])
-        elif task_type == "FORECASTING_EVENT":
-            # 对于FORECASTING_EVENT任务，需要返回Pred_Labels以存储到CSV文件中
+        if task_type == "PREDICTION":
+            # 对于PREDICTION任务，需要返回Pred_Labels以存储到CSV文件中
             formatted_pred_labels = format_understand_labels(pred_labels)
             if method in OUR_Method:
                 # InfTS-LLM, InfTS-LLM (+v) 在事件预测任务中应该存储 Pred_Labels 和 Impact_Scores
-                # 根据新需求，FORECASTING_EVENT任务不存储Pred_Series
+                # 根据新需求，PREDICTION任务不存储Pred_Series
                 return formatted_pred_labels, json.dumps([]), json.dumps(impact_scores)
-            elif method in BASELINE_FORECASTING_EVENT:
+            elif method in BASELINE_PREDICTION:
                 # TimeCAP 在事件预测任务中应该存储 Pred_Labels，但不存储Pred_Series
                 return formatted_pred_labels, json.dumps([]), json.dumps([])
         elif task_type == "UNDERSTANDING":

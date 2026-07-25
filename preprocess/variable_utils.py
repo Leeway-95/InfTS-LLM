@@ -3,15 +3,10 @@ import os
 
 # 数据处理配置
 EXCLUDE_COLUMNS = ['date', 'time', 'Date', 'Time', 'label', 'Label', 'News']
-EMPTY_VARIABLE_DATASETS = ["TSQA", "AIOps", "NAB", "Oracle", "WeatherQA", "QATS-4"]
+EMPTY_VARIABLE_DATASETS = ["TSQA", "AIOps", "NAB", "Oracle", "WeatherQA", "ChatTS"]
 
 def get_dataset_variables(dataset_name, dataset_path=None):
-    # 特定数据集的变量映射
-    dataset_variables = {
-        "ETTm": "HUFL, HULL, MUFL, MULL, LUFL, LULL, OT",
-        "Weather": "p (mbar), T (degC), Tpot (K), Tdew (degC), rh (%), VPmax (mbar), VPact (mbar), VPdef (mbar), sh (g/kg), H2OC (mmol/mol), rho (g/m**3), wv (m/s), max. wv (m/s), wd (deg)",
-        "Gold": "Price"
-    }
+    dataset_variables = {}
     
     # 对于有预定义变量的数据集，直接返回
     if dataset_name in dataset_variables:

@@ -57,7 +57,7 @@ def load_questions(dataset_name):
         return questions_list, positions_list
 
     except Exception as e:
-        logger.error(f"Error loading QATS-4 questions and positions: {e}")
+        logger.error(f"Error loading ChatTS questions and positions: {e}")
         return [], []
 
 
@@ -83,7 +83,7 @@ def format_qats4_questions(questions, positions, full_series):
     return "\n\n".join(formatted_questions)
 
 
-def get_forecasting_event_prompts(dataset_name, window_size=24, positions=None, id_val=None):
+def get_prediction_prompts(dataset_name, window_size=24, positions=None, id_val=None):
     domain_label = "True/False"
     dataset_instruction = ""
     if dataset_name.startswith("Weather_"):
@@ -294,11 +294,8 @@ def build_pcot_prompt(id_val, full_series, recent_series, rep_series, memory_poo
         elif task == "REASONING" and dataset_name in DATASET_REASONING:
             task_type = "REASONING"
             break
-        elif task == "FORECASTING_NUM" and dataset_name in DATASET_FORECASTING_NUM:
-            task_type = "FORECASTING_NUM"
-            break
-        elif task == "FORECASTING_EVENT" and dataset_name in DATASET_FORECASTING_EVENT:
-            task_type = "FORECASTING_EVENT"
+        elif task == "PREDICTION" and dataset_name in DATASET_PREDICTION:
+            task_type = "PREDICTION"
             break
 
     # 根据当前方法和任务类型选择对应的提示文件
@@ -318,9 +315,7 @@ def build_pcot_prompt(id_val, full_series, recent_series, rep_series, memory_poo
                 formatted_reps.append(f"R_{i + 1}: {line}")
 
         pcot_input += "INPUT:"
-        if task_type == "FORECASTING_NUM":
-            pcot_input += "\n- Recent Subsequence (as the primary basis): " + str(recent_series)
-        elif task_type == "UNDERSTANDING":
+        if task_type == "UNDERSTANDING":
             for i, (start, end) in enumerate(positions):
                 # 使用切片截取，注意Python切片是左闭右开，所以end+1
                 subSequence = full_series[start:end + 1]
@@ -333,17 +328,11 @@ def build_pcot_prompt(id_val, full_series, recent_series, rep_series, memory_poo
             cot_file = Prompt_PATHS["InfTS-LLM-Understand"]
         elif task_type == "REASONING":
             cot_file = Prompt_PATHS["InfTS-LLM-Reason"]
-        elif task_type == "FORECASTING_NUM":
-            cot_file = Prompt_PATHS["InfTS-LLM-Forecast"]
-        elif task_type == "FORECASTING_EVENT":
-            cot_file = Prompt_PATHS["InfTS-LLM-Forecast-Event"]
+        elif task_type == "PREDICTION":
+            cot_file = Prompt_PATHS["InfTS-LLM-Prediction"]
         else:
-            cot_file = Prompt_PATHS["InfTS-LLM-Forecast"]
-            logger.warning(f"Unknown task type for dataset {dataset_name}, using default PCoT_Forecast.txt")
-    elif method == "PromptCast":
-        cot_file = Prompt_PATHS["PromptCast"]
-    elif method == "TimeCP":
-        cot_file = Prompt_PATHS["TimeCP"]
+            cot_file = Prompt_PATHS["InfTS-LLM-Prediction"]
+            logger.warning(f"Unknown task type for dataset {dataset_name}, using default PCoT_Prediction.txt")
     elif method == "TimeCAP":
         cot_file = Prompt_PATHS["TimeCAP"]
     elif method == "Inf-LLM" or method == "Inf-LLM (+v)":
@@ -357,26 +346,19 @@ def build_pcot_prompt(id_val, full_series, recent_series, rep_series, memory_poo
         elif task_type == "REASONING":
             cot_file = Prompt_PATHS["Window-Reason"]
     else:
-        # 如果方法不在列表中，默认使用PCoT_Forecast.txt
-        cot_file = Prompt_PATHS["InfTS-LLM-Forecast"]
-        logger.warning(f"Unknown method {method}, using default PCoT_Forecast.txt")
+        # 如果方法不在列表中，默认使用PCoT_Prediction.txt
+        cot_file = Prompt_PATHS["InfTS-LLM-Prediction"]
+        logger.warning(f"Unknown method {method}, using default PCoT_Prediction.txt")
 
     # 读取并添加思维链模板
     # logger.info(f"Using prompt template: {cot_file}")  # 减少控制台输出
     with open(cot_file, "r", encoding="utf-8") as f:
         content = f.read()
         if "<<Domain>>" in content:
-            if dataset_name == "Gold":
-                domain = "financial"
-            elif dataset_name.startswith("ETTm"):
-                domain = "electricity"
-            elif dataset_name == "Weather":
-                domain = "weather"
-            else:
-                domain = "data"
+            domain = "data"
             content = content.replace("<<Domain>>", domain)
         if "<<Questions>>" in content:
-            # 加载QATS-4问题和位置信息
+            # 加载ChatTS问题和位置信息
             qats4_questions, qats4_positions = load_questions(dataset_name)
             formatted_questions = format_qats4_questions(qats4_questions, qats4_positions, full_series)
             content = content.replace("<<Questions>>", formatted_questions)
@@ -407,43 +389,15 @@ def build_pcot_prompt(id_val, full_series, recent_series, rep_series, memory_poo
         # 处理事件预测的数据集特定指令
         if "<<DATASET_SPECIFIC_INSTRUCTION>>" in content:
             # 使用新的函数获取数据集特定的系统和用户提示
-            if task_type == "FORECASTING_EVENT":
-                dataset_instruction, domain_label = get_forecasting_event_prompts(dataset_name, hist_len, positions,
+            if task_type == "PREDICTION":
+                dataset_instruction, domain_label = get_prediction_prompts(dataset_name, hist_len, positions,
                                                                                   id_val)
                 content = content.replace("<<DATASET_SPECIFIC_INSTRUCTION>>", dataset_instruction)
                 # 确保 Domain_Label 被正确替换为实际的标签值
                 if "<<Domain_Label>>" in content:
                     content = content.replace("<<Domain_Label>>", str(domain_label))
 
-        if method == "PromptCast":
-            # PromptCast特定替换
-            content = content.replace("<<Start_Time>>", str(id_val))
-            content = content.replace("<<End_Time>>", str(id_val + hist_len))
-            if dataset_name == "Gold":
-                dataset_variable = "gold price (USD per ounce)"
-            elif dataset_name.startswith("ETTm"):
-                dataset_variable = "electricity (MW)"
-            elif dataset_name == "Weather":
-                dataset_variable = "weather (percent)"
-            else:
-                dataset_variable = "value"
-            content = content.replace("<<dataset_variable>>", dataset_variable)
-        elif method == "TimeCP":
-            if dataset_name == "Gold":
-                domain_variable = "gold price"
-                prediction_type = "price change"
-            elif dataset_name.startswith("ETTm"):
-                domain_variable = "electricity"
-                prediction_type = "change in electricity"
-            elif dataset_name == "Weather":
-                domain_variable = "weather"
-                prediction_type = "whether it will rain"
-            else:
-                domain_variable = "value"
-                prediction_type = "value"
-            content = content.replace("<<domain_variable>>", domain_variable)
-            content = content.replace("<<prediction_type>>", prediction_type)
-        elif method == "Inf-LLM" or method == "Inf-LLM (+v)":
+        if method == "Inf-LLM" or method == "Inf-LLM (+v)":
             memory_patches = memory_pool.get_memory_patches()
             # 将列表转换为字符串，每个项目占一行
             memory_patches_str = "\n".join(memory_patches) if memory_patches else ""

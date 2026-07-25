@@ -1,0 +1,39 @@
+File: series_122
+Data points: 768
+Detected representative subsequence: 5
+
+Representative subsequence 1: position=[100,120]
+Representative subsequence 2: position=[184,257]
+Representative subsequence 3: position=[339,379]
+Representative subsequence 4: position=[424,464]
+Representative subsequence 5: position=[473,513]
+
+==== ClaSP Scores ====
+Timestep, Score
+100, 0.540745
+120, 0.534321
+140, 0.527914
+160, 0.522425
+180, 0.820804
+200, 0.843297
+220, 0.856057
+240, 0.854476
+260, 0.840388
+280, 0.785223
+300, 0.757146
+320, 0.759917
+340, 0.788520
+360, 0.813635
+380, 0.812132
+400, 0.809990
+420, 0.816936
+440, 0.834956
+460, 0.835625
+480, 0.853719
+500, 0.855041
+520, 0.836107
+540, 0.754381
+560, 0.714328
+580, 0.699497
+600, 0.704387
+620, 0.720379

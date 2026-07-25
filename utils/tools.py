@@ -144,13 +144,8 @@ def valid_call(task, dataset, method):
             return True
         else:
             return False
-    elif  task == 'FORECASTING_NUM':
-        if dataset in DATASET_FORECASTING_NUM and method in BASELINE_FORECASTING_NUM:
-            return True
-        else:
-            return False
-    elif  task == 'FORECASTING_EVENT':
-        if dataset in DATASET_FORECASTING_EVENT and method in BASELINE_FORECASTING_EVENT:
+    elif  task == 'PREDICTION':
+        if dataset in DATASET_PREDICTION and method in BASELINE_PREDICTION:
             return True
         else:
             return False

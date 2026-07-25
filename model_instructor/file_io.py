@@ -51,7 +51,7 @@ def save_full_response(id_val, response, dataset_name, method, task, hist_len, p
     file_content += f"Timestamp: {timestamp}\n"
     if method:
         # 根据任务类型决定是否包含HistLen和PredLen
-        if task in ["FORECASTING_NUM"]:
+        if task in [""]:
             file_content += f"Task: {task} | Dataset: {dataset_name} | Method: {method} | HistLen: {hist_len} | PredLen: {pred_len} | Index: {id_val + 1} | {timestamp}\n"
         else:
             file_content += f"Task: {task} | Dataset: {dataset_name} | Method: {method} | Index: {id_val + 1} | {timestamp}\n"
@@ -140,11 +140,8 @@ def update_csv(id_val, pred_labels, pred_series, impact_scores, dataset_name, ta
         if task_type == "UNDERSTANDING" and dataset_name not in DATASET_UNDERSTANDING:
             logger.info(f"Skipping dataset {dataset_name} for UNDERSTANDING task")
             return
-        elif task_type == "FORECASTING_NUM" and dataset_name not in DATASET_FORECASTING_NUM:
-            logger.info(f"Skipping dataset {dataset_name} for FORECASTING_NUM task")
-            return
-        elif task_type == "FORECASTING_EVENT" and dataset_name not in DATASET_FORECASTING_EVENT:
-            logger.info(f"Skipping dataset {dataset_name} for FORECASTING_EVENT task")
+        elif task_type == "PREDICTION" and dataset_name not in DATASET_PREDICTION:
+            logger.info(f"Skipping dataset {dataset_name} for PREDICTION task")
             return
         elif task_type == "REASONING" and dataset_name not in DATASET_REASONING:
             logger.info(f"Skipping dataset {dataset_name} for REASONING task")
@@ -155,12 +152,8 @@ def update_csv(id_val, pred_labels, pred_series, impact_scores, dataset_name, ta
             if task_type == "UNDERSTANDING" and method not in BASELINE_UNDERSTANDING:
                 logger.info(f"Skipping method {method} for UNDERSTANDING task")
                 return
-            elif task_type == "FORECASTING_NUM" and method not in BASELINE_FORECASTING_NUM:
-                logger.info(f"Skipping method {method} for FORECASTING_NUM task")
-                return
-
-            elif task_type == "FORECASTING_EVENT" and method not in BASELINE_FORECASTING_EVENT:
-                logger.info(f"Skipping method {method} for FORECASTING_EVENT task")
+            elif task_type == "PREDICTION" and method not in BASELINE_PREDICTION:
+                logger.info(f"Skipping method {method} for PREDICTION task")
                 return
             elif task_type == "REASONING" and method not in BASELINE_REASONING:
                 logger.info(f"Skipping method {method} for REASONING task")
@@ -181,7 +174,7 @@ def update_csv(id_val, pred_labels, pred_series, impact_scores, dataset_name, ta
 
         os.makedirs(output_dir, exist_ok=True)
 
-        # 创建新行数据 - 对于FORECASTING_EVENT任务，不写入Pred_Series
+        # 创建新行数据 - 对于PREDICTION任务，不写入Pred_Series
         new_row = {
             "Index": id_val,
             "Task": task_type,
@@ -193,8 +186,8 @@ def update_csv(id_val, pred_labels, pred_series, impact_scores, dataset_name, ta
             "Pred_Labels": json.dumps(pred_labels) if pred_labels else ""
         }
 
-        # 只有非FORECASTING_EVENT任务才写入Pred_Series
-        if task_type != "FORECASTING_EVENT":
+        # 只有非PREDICTION任务才写入Pred_Series
+        if task_type != "PREDICTION":
             new_row["Pred_Series"] = json.dumps(pred_series) if pred_series else ""
         else:
             new_row["Pred_Series"] = ""

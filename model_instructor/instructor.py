@@ -43,11 +43,8 @@ def generate_predict_compare_csv(id_val, pred_labels, pred_series_str, impact_sc
         if task_type == "UNDERSTANDING" and dataset_name not in DATASET_UNDERSTANDING:
             # logger.info(f"Skipping dataset {dataset_name} for UNDERSTANDING task")
             return
-        elif task_type == "FORECASTING_NUM" and dataset_name not in DATASET_FORECASTING_NUM:
-            # logger.info(f"Skipping dataset {dataset_name} for FORECASTING_NUM task")
-            return
-        elif task_type == "FORECASTING_EVENT" and dataset_name not in DATASET_FORECASTING_EVENT:
-            # logger.info(f"Skipping dataset {dataset_name} for FORECASTING_EVENT task")
+        elif task_type == "PREDICTION" and dataset_name not in DATASET_PREDICTION:
+            # logger.info(f"Skipping dataset {dataset_name} for PREDICTION task")
             return
         elif task_type == "REASONING" and dataset_name not in DATASET_REASONING:
             # logger.info(f"Skipping dataset {dataset_name} for REASONING task")
@@ -58,11 +55,8 @@ def generate_predict_compare_csv(id_val, pred_labels, pred_series_str, impact_sc
             if task_type == "UNDERSTANDING" and method not in BASELINE_UNDERSTANDING:
                 logger.info(f"Skipping method {method} for UNDERSTANDING task")
                 return
-            elif task_type == "FORECASTING_NUM" and method not in BASELINE_FORECASTING_NUM:
-                # logger.info(f"Skipping method {method} for FORECASTING_NUM task")
-                return
-            elif task_type == "FORECASTING_EVENT" and method not in BASELINE_FORECASTING_EVENT:
-                # logger.info(f"Skipping method {method} for FORECASTING_EVENT task")
+            elif task_type == "PREDICTION" and method not in BASELINE_PREDICTION:
+                # logger.info(f"Skipping method {method} for PREDICTION task")
                 return
             elif task_type == "REASONING" and method not in BASELINE_REASONING:
                 # logger.info(f"Skipping method {method} for REASONING task")
@@ -234,7 +228,7 @@ def generate_predict_compare_csv(id_val, pred_labels, pred_series_str, impact_sc
         else:
             true_series_tail = []
 
-        if task_type == "UNDERSTANDING" or task_type == "REASONING" or task_type == "FORECASTING_EVENT":
+        if task_type == "UNDERSTANDING" or task_type == "REASONING" or task_type == "PREDICTION":
             true_series_tail = []
 
         # 根据真实序列长度调整预测序列
@@ -253,7 +247,7 @@ def generate_predict_compare_csv(id_val, pred_labels, pred_series_str, impact_sc
                 # 如果预测序列为空，用0补全
                 pred_series_list = [0.0] * true_series_len
 
-        if task_type == "UNDERSTANDING" or task_type == "REASONING" or task_type == "FORECASTING_EVENT":
+        if task_type == "UNDERSTANDING" or task_type == "REASONING" or task_type == "PREDICTION":
             pred_series_list = []
 
         # 重新计算预测序列长度，确保与真实序列长度一致
@@ -273,20 +267,20 @@ def generate_predict_compare_csv(id_val, pred_labels, pred_series_str, impact_sc
                 matches = sum(1 for i in range(min_len) if pred_labels_list[i] == true_labels[i])
                 labels_accuracy = matches / len(true_labels) if true_labels else 0.0
 
-        # 计算序列的平均绝对误差(MAE) - 对于FORECASTING_EVENT任务不计算
+        # 计算序列的平均绝对误差(MAE) - 对于PREDICTION任务不计算
         series_mae = 0.0
-        if task_type != "FORECASTING_EVENT" and pred_series_list and true_series_tail:
+        if task_type != "PREDICTION" and pred_series_list and true_series_tail:
             min_len = min(len(pred_series_list), len(true_series_tail))
             if min_len > 0:
                 # 计算平均绝对误差(MAE)
                 absolute_errors = [abs(float(pred_series_list[i]) - float(true_series_tail[i])) for i in range(min_len)]
                 series_mae = sum(absolute_errors) / min_len
 
-        # 计算事件预测的F1和AUC指标（仅对FORECASTING_EVENT任务）
+        # 计算事件预测的F1和AUC指标（仅对PREDICTION任务）
         pred_labels_f1 = 0.0
         pred_labels_auc = 0.0
 
-        if task_type == "FORECASTING_EVENT" and pred_labels_list and true_labels:
+        if task_type == "PREDICTION" and pred_labels_list and true_labels:
             # 导入计算事件指标的函数
             try:
                 # 动态导入以避免循环导入
@@ -316,7 +310,7 @@ def generate_predict_compare_csv(id_val, pred_labels, pred_series_str, impact_sc
                 pred_labels_auc = 0.0
 
         # 准备比较数据 - 确保Task列在Index列之后，添加F1和AUC列
-        # 对于FORECASTING_EVENT任务，不写入Pred_Series相关数据
+        # 对于PREDICTION任务，不写入Pred_Series相关数据
         compare_data = {
             "Index": id_val,
             "Task": task_type,
@@ -335,8 +329,8 @@ def generate_predict_compare_csv(id_val, pred_labels, pred_series_str, impact_sc
             "Pred_Labels_Truth": str(true_labels)
         }
 
-        # 只有非FORECASTING_EVENT任务才写入Pred_Series数据
-        if task_type != "FORECASTING_EVENT":
+        # 只有非PREDICTION任务才写入Pred_Series数据
+        if task_type != "PREDICTION":
             compare_data["Pred_Series"] = str(pred_series_list)
             compare_data["Pred_Series_Truth"] = str(true_series_tail)
         else:
@@ -396,10 +390,8 @@ if __name__ == "__main__":
 
         # 处理每个数据集 - 避免重复处理同一数据集
         all_datasets = set()
-        if "FORECASTING_NUM" in TASK:
-            all_datasets = all_datasets | set(DATASET_FORECASTING_NUM)
-        if "FORECASTING_EVENT" in TASK:
-            all_datasets = all_datasets | set(DATASET_FORECASTING_EVENT)
+        if "PREDICTION" in TASK:
+            all_datasets = all_datasets | set(DATASET_PREDICTION)
         if "UNDERSTANDING" in TASK:
             all_datasets = all_datasets | set(DATASET_UNDERSTANDING)
         if "REASONING" in TASK:
@@ -464,7 +456,7 @@ if __name__ == "__main__":
                 # logger.info(f"Found {len(sorted_ids)} rows to process")  # 减少控制台输出
 
                 # 遍历TASK列表，根据任务类型选择不同的方法
-                task_progress = tqdm(TASK, leave=True, disable=not any(valid_call(task, dataset_name, method) for task in TASK for method in (BASELINE_UNDERSTANDING + BASELINE_FORECASTING_NUM + BASELINE_FORECASTING_EVENT + BASELINE_REASONING + OUR_Method)))
+                task_progress = tqdm(TASK, leave=True, disable=not any(valid_call(task, dataset_name, method) for task in TASK for method in (BASELINE_UNDERSTANDING + BASELINE_PREDICTION + BASELINE_REASONING + OUR_Method)))
                 for inner_task_type in task_progress:
                     # 检查任务是否发生变化，如果变化则清空记忆池
                     if current_task != inner_task_type:
@@ -484,10 +476,8 @@ if __name__ == "__main__":
                     # 根据任务类型选择对应的方法列表，包含OUR_Method
                     if inner_task_type == "UNDERSTANDING":
                         methods_to_use = BASELINE_UNDERSTANDING + OUR_Method
-                    elif inner_task_type == "FORECASTING_NUM":
-                        methods_to_use = BASELINE_FORECASTING_NUM + OUR_Method
-                    elif inner_task_type == "FORECASTING_EVENT":
-                        methods_to_use = BASELINE_FORECASTING_EVENT + OUR_Method
+                    elif inner_task_type == "PREDICTION":
+                        methods_to_use = BASELINE_PREDICTION + OUR_Method
                     elif inner_task_type == "REASONING":
                         methods_to_use = BASELINE_REASONING + OUR_Method
 
@@ -697,20 +687,16 @@ if __name__ == "__main__":
                                                                      hist_len, pred_len)
 
                         else:
-                            # 对于 FORECASTING_NUM 任务，保持原有的双重循环逻辑
+                            # 对于 PREDICTION 任务，保持原有的双重循环逻辑
                             for pred_len in PreLen:
                                 for hist_len in HistLen:
                                     # 检查数据集是否属于当前任务类型
-                                    if inner_task_type == "FORECASTING_NUM" and dataset_name not in DATASET_FORECASTING_NUM:
-                                        continue
-                                    elif inner_task_type == "FORECASTING_EVENT" and dataset_name not in DATASET_FORECASTING_EVENT:
+                                    if inner_task_type == "PREDICTION" and dataset_name not in DATASET_PREDICTION:
                                         continue
 
                                     # 检查方法是否属于当前任务类型 - 只对Baseline方法进行过滤，OUR_Method不需要过滤
                                     if method not in OUR_Method:  # 只对非OUR_Method的方法进行过滤
-                                        if inner_task_type == "FORECASTING_NUM" and method not in BASELINE_FORECASTING_NUM:
-                                            continue
-                                        elif inner_task_type == "FORECASTING_EVENT" and method not in BASELINE_FORECASTING_EVENT:
+                                        if inner_task_type == "PREDICTION" and method not in BASELINE_PREDICTION:
                                             continue
 
                                     # 处理每一行数据
@@ -793,7 +779,7 @@ if __name__ == "__main__":
                                             logger.warning(f" Positions field not found in stream_row for ID {id_val}")
                                             positions = []
                                         maxlen = len(full_series)
-                                        # 对于FORECASTING_NUM任务，recent_series应该使用配置的hist_len长度的历史数据
+                                        # 对于任务，recent_series应该使用配置的hist_len长度的历史数据
                                         # 从序列末尾取hist_len个数据点作为历史序列
                                         if maxlen >= hist_len:
                                             # 使用序列的最后 hist_len 个数据点作为历史序列

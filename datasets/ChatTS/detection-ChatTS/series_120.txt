@@ -1,0 +1,7 @@
+File: series_120
+Data points: 256
+Detected representative subsequence: 0
+
+
+==== ClaSP Scores ====
+Timestep, Score

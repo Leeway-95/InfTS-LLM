@@ -6,18 +6,16 @@ _current_dir = os.path.dirname(os.path.abspath(__file__))
 _project_root = os.path.dirname(_current_dir)
 
 # 实验任务
-TASK = ["UNDERSTANDING", "REASONING", "FORECASTING_NUM", "FORECASTING_EVENT"]
+TASK = ["UNDERSTANDING", "REASONING", "PREDICTION"]
 # 实验方法
 OUR_Method = ["InfTS-LLM", "InfTS-LLM (+v)"]
 BASELINE_UNDERSTANDING = ["Window", "Window (+v)", "Inf-LLM", "Inf-LLM (+v)"]
 BASELINE_REASONING = ["Window", "Window (+v)", "Inf-LLM", "Inf-LLM (+v)"]
-BASELINE_FORECASTING_NUM = ["PromptCast", "TimeCP"]
-BASELINE_FORECASTING_EVENT = ["TimeCAP"]
+BASELINE_PREDICTION = ["TimeCAP"]
 # 实验数据集
 DATASET_UNDERSTANDING = {"TSQA"}
-DATASET_REASONING = {"QATS-4","MCQ2"}
-DATASET_FORECASTING_NUM = {"ETTm","Weather","Gold"}
-DATASET_FORECASTING_EVENT = {"Weather_ny","Weather_sf","Weather_hs","Finance_sp500","Finance_nikkei","Healthcare_mortality","Healthcare_positive"}
+DATASET_REASONING = {"ChatTS","MCQ2"}
+DATASET_PREDICTION = {"Weather_ny","Weather_sf","Weather_hs","Finance_sp500","Finance_nikkei","Healthcare_mortality","Healthcare_positive"}
 
 # Preprocess 相关配置 True False
 GEN_STREAM_CNT = 1                   # 生成流的数量
@@ -42,9 +40,6 @@ LABELS_PRIORITY_ORDER = [
     "local-correlation-inductive", "shape-cluster-inductive", "shape-correlation-inductive"
 ]
 DATASET_PATHS = {
-    "ETTm": os.path.join(_project_root, "datasets/Ettm/ETTm"),
-    "Weather": os.path.join(_project_root, "datasets/Weather/Weather"),
-    "Gold": os.path.join(_project_root, "datasets/Gold/Gold"),
     "TSQA": os.path.join(_project_root, "datasets/TSQA/TSQA"),
     "WeatherQA": os.path.join(_project_root, "datasets/WeatherQA/WeatherQA"),
     "AIOps": os.path.join(_project_root, "datasets/AIOps/AIOps"),
@@ -81,10 +76,8 @@ TEMPERATURE = 0.2                   # 温度设置
 Prompt_PATHS = {
     "InfTS-LLM-Understand": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Understand.txt"),
     "InfTS-LLM-Reason": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Reason.txt"),
-    "InfTS-LLM-Forecast": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Forecast.txt"),
-    "InfTS-LLM-Forecast-Event": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Forecast_Event.txt"),
-    "PromptCast": os.path.join(_project_root, "baselines/time_series_llm/prompt/promptcast/promptcast_prompt.txt"),
-    "TimeCP": os.path.join(_project_root, "baselines/time_series_llm/prompt/timecp/timecp_prompt.txt"),
+    "InfTS-LLM-Prediction": os.path.join(_project_root, "model_instructor/PCoT/PCoT_Prediction.txt"),
+    "TimeCAP": os.path.join(_project_root, "baselines/time_series_llm/timecap/timecap.txt"),
     "Window-Understand": os.path.join(_project_root, "baselines/text_stream_llm/Window/window_stateful_prompt_understand.txt"),
     "Window-Reason": os.path.join(_project_root, "baselines/text_stream_llm/Window/window_stateful_prompt_reason.txt")
 }
@@ -99,12 +92,9 @@ SAVE_MEMORY_POOL = True                # 是否保存内存池
 # 预测长度和历史长度
 PreLen = [48]
 HistLen = [192]
-Hist_Pre_ETTm = [(192,48),(288,48),(384,48),(480,48)]
-Hist_Pre_Weather = [(288,144),(432,144),(576,144),(720,144)]
-Hist_Pre_Gold = [(96,24),(144,24),(192,24),(240,24)]
 
 DATASET_MERGE_PATHS = {
-    "QATS-4": os.path.join(_project_root, "datasets/QATS-4/QATS-4")
+    "ChatTS": os.path.join(_project_root, "datasets/ChatTS/ChatTS")
 }
 # Postprocess 相关配置
 TEXT_SIMILARITY_THRESHOLD = 0.5  # 文本相似度阈值

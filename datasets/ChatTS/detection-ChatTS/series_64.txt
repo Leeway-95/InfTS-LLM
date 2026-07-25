@@ -1,0 +1,10 @@
+File: series_64
+Data points: 256
+Detected representative subsequence: 1
+
+Representative subsequence 1: position=[101,122]
+
+==== ClaSP Scores ====
+Timestep, Score
+100, 0.625621
+120, 0.628514

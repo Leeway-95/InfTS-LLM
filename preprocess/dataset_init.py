@@ -6,7 +6,7 @@ from pathlib import Path
 
 # 添加utils目录到Python路径以导入config
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'utils'))
-from utils.config import TASK, DATASET_UNDERSTANDING, DATASET_REASONING, DATASET_FORECASTING_NUM, DATASET_TO_MERGE, DATASET_FORECASTING_EVENT
+from utils.config import TASK, DATASET_UNDERSTANDING, DATASET_REASONING, DATASET_TO_MERGE, DATASET_PREDICTION
 
 def clean_datasets(patterns):
     """
@@ -30,10 +30,8 @@ def clean_datasets(patterns):
             datasets_to_clean.update(DATASET_REASONING)
             # 当TASK包含REASONING时，也需要清理DATASET_TO_MERGE中的数据集
             datasets_to_clean.update(DATASET_TO_MERGE)
-        elif task == "FORECASTING_NUM":
-            datasets_to_clean.update(DATASET_FORECASTING_NUM)
-        elif task == "FORECASTING_EVENT":
-            datasets_to_clean.update(DATASET_FORECASTING_EVENT)
+        elif task == "PREDICTION":
+            datasets_to_clean.update(DATASET_PREDICTION)
     
     print(f"Tasks: {TASK}")
     print(f"Datasets: {datasets_to_clean}")

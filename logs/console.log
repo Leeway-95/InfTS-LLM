@@ -1,6 +1,6 @@
 0.Clearing datasets...
 Tasks: ['UNDERSTANDING', 'REASONING', 'FORECASTING_NUM', 'FORECASTING_EVENT']
-Datasets: {'AIOps', 'Weather_sf', 'Weather_ny', 'NAB', 'Healthcare_positive', 'Finance_sp500', 'Weather_hs', 'Weather', 'Oracle', 'Finance_nikkei', 'Healthcare_mortality', 'TSQA', 'WeatherQA', 'QATS-4', 'Gold', 'ETTm', 'MCQ2'}
+Datasets: {'AIOps', 'Weather_sf', 'Weather_ny', 'NAB', 'Healthcare_positive', 'Finance_sp500', 'Weather_hs', 'Weather', 'Oracle', 'Finance_nikkei', 'Healthcare_mortality', 'TSQA', 'WeatherQA', 'ChatTS', 'Gold', 'ETTm', 'MCQ2'}
 Cleanup completed.
 
 1.Converting datasets to stream format...
@@ -37,7 +37,7 @@ Processing summary:
 - Processed Finance_nikkei: 9 series
 - Processed Healthcare_mortality: 4 series
 - Processed Healthcare_positive: 6 series
-- Processed QATS-4: 500 series 
+- Processed ChatTS: 500 series 
 
 2.Starting Representative Detector...
 Task: UNDERSTANDING, Dataset: TSQA, Input path: /Users/leeway/PycharmProjects/InfTS-LLM/datasets/TSQA/stream-TSQA
@@ -143,7 +143,7 @@ Processing series_98: 100%|█████████████████�
 Processing series_99: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1664/1664 [00:00<00:00]
 Processed TSQA: 100%|█████████████████████████████████████████████████████████████████████████████████████████| 100/100 [01:29<00:00,  1.12it/s, completed=99/100]
 
-Task: REASONING, Dataset: QATS-4, Input path: /Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/stream-QATS-4
+Task: REASONING, Dataset: ChatTS, Input path: /Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/stream-ChatTS
 Processing series_0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:00<00:00]
 Processing series_1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 256/256 [00:00<00:00]
 Processing series_2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 512/512 [00:00<00:00]
@@ -644,7 +644,7 @@ Processing series_496: 100%|█████████████████�
 Processing series_497: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8608/8608 [00:08<00:00]
 Processing series_498: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6645/6645 [00:05<00:00]
 Processing series_499: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8962/8962 [00:09<00:00]
-Processed QATS-4: 100%|████████████████████████████████████████████████████████████████████████████████████| 500/500 [2:13:38<00:00, 16.04s/it, completed=499/500]
+Processed ChatTS: 100%|████████████████████████████████████████████████████████████████████████████████████| 500/500 [2:13:38<00:00, 16.04s/it, completed=499/500]
 
 Task: FORECASTING_NUM, Dataset: ETTm, Input path: /Users/leeway/PycharmProjects/InfTS-LLM/datasets/Ettm/stream-ETTm
 Processing series_0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 999/999 [00:00<00:00]
@@ -749,11 +749,11 @@ Processing series_3: 100%|██████████████████
 Processed Healthcare_mortality: 100%|████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00,  5.65it/s, completed=3/4]
 
 3.Starting Pattern-guided Instructor...
-Task: REASONING | Dataset: QATS-4 | Method: Window | 2025-09-15 03:51:18: 100%|████████████████████████████████████████████████████████████████| 5/5 [00:11<00:00,  2.40s/it]
-Task: REASONING | Dataset: QATS-4 | Method: Window (+v) | 2025-09-15 03:51:30: 100%|███████████████████████████████████████████████████████████| 5/5 [00:33<00:00,  6.63s/it]
-Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM | 2025-09-15 03:52:03: 100%|███████████████████████████████████████████████████████████████| 5/5 [00:11<00:00,  2.31s/it]
-Task: REASONING | Dataset: QATS-4 | Method: Inf-LLM (+v) | 2025-09-15 03:52:14: 100%|██████████████████████████████████████████████████████████| 5/5 [00:29<00:00,  5.98s/it]
-Task: REASONING | Dataset: QATS-4 | Method: ['Window', 'Window (+v)', 'Inf-LLM', 'Inf-LLM (+v)', 'InfTS-LLM', 'InfTS-LLM (+v)'] | 2025-09-15 03:51:18: 100%|█| 6/6 [02:18<00:
+Task: REASONING | Dataset: ChatTS | Method: Window | 2025-09-15 03:51:18: 100%|████████████████████████████████████████████████████████████████| 5/5 [00:11<00:00,  2.40s/it]
+Task: REASONING | Dataset: ChatTS | Method: Window (+v) | 2025-09-15 03:51:30: 100%|███████████████████████████████████████████████████████████| 5/5 [00:33<00:00,  6.63s/it]
+Task: REASONING | Dataset: ChatTS | Method: Inf-LLM | 2025-09-15 03:52:03: 100%|███████████████████████████████████████████████████████████████| 5/5 [00:11<00:00,  2.31s/it]
+Task: REASONING | Dataset: ChatTS | Method: Inf-LLM (+v) | 2025-09-15 03:52:14: 100%|██████████████████████████████████████████████████████████| 5/5 [00:29<00:00,  5.98s/it]
+Task: REASONING | Dataset: ChatTS | Method: ['Window', 'Window (+v)', 'Inf-LLM', 'Inf-LLM (+v)', 'InfTS-LLM', 'InfTS-LLM (+v)'] | 2025-09-15 03:51:18: 100%|█| 6/6 [02:18<00:
 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [02:18<00:00, 34.56s/it]
 Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | 2025-09-15 03:53:36: 100%|███████████████████| 9/9 [00:51<00:00,  5.73s/it]
 Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: ['TimeCAP', 'InfTS-LLM', 'InfTS-LLM (+v)'] | 2025-09-15 03:53:36: 100%|█████████████| 3/3 [03:41<00:00, 73.67s/it]

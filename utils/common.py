@@ -133,7 +133,7 @@ def has_vision_support(method=None):
         return "(+v)" in method
     
     # 检查所有方法，包括OUR_Method和Baseline方法
-    all_methods = BASELINE_UNDERSTANDING + BASELINE_REASONING + BASELINE_FORECASTING_NUM + OUR_Method
+    all_methods = BASELINE_UNDERSTANDING + BASELINE_REASONING + BASELINE_PREDICTION + OUR_Method
     return any("(+v)" in method for method in all_methods)
 
 def is_fixed_slope(series, tolerance=1e-5):

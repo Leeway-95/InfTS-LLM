@@ -1,34 +1,34 @@
 Index,Task,Dataset,Method,TTFT,InputTokens,OutputTokens,Cost,TotalTime,ResponseFile,LogTime
-1,REASONING,QATS-4,Window,1.4390456676483154,547,27,0.000601,2.3658390045166016,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:20
-2,REASONING,QATS-4,Window,1.391731023788452,547,26,0.0005989999999999,2.3498129844665527,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:22
-3,REASONING,QATS-4,Window,1.2922518253326416,547,29,0.000605,2.280901908874512,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:25
-4,REASONING,QATS-4,Window,1.3831181526184082,547,29,0.000605,2.530690908432007,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:27
-5,REASONING,QATS-4,Window,1.4400320053100586,547,27,0.000601,2.2154018878936768,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:30
-6,REASONING,QATS-4,Window (+v),1.233128786087036,547,27,0.000601,2.1595940589904785,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:32
-7,REASONING,QATS-4,Window (+v),7.241190195083618,547,27,0.000601,8.282340049743652,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:40
-8,REASONING,QATS-4,Window (+v),6.310273885726929,547,29,0.000605,7.210160970687866,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:47
-9,REASONING,QATS-4,Window (+v),6.269988775253296,547,27,0.000601,7.201620101928711,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:51:55
-10,REASONING,QATS-4,Window (+v),7.218513011932373,547,26,0.0005989999999999,8.05739688873291,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:03
-11,REASONING,QATS-4,Inf-LLM,1.4393939971923828,553,27,0.000607,2.3508141040802,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:05
-12,REASONING,QATS-4,Inf-LLM,1.2860448360443115,553,27,0.000607,2.1683390140533447,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:07
-13,REASONING,QATS-4,Inf-LLM,1.4577038288116455,553,29,0.000611,2.283437728881836,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:10
-14,REASONING,QATS-4,Inf-LLM,1.3661787509918213,553,27,0.000607,2.388757944107056,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:12
-15,REASONING,QATS-4,Inf-LLM,1.2989859580993652,553,27,0.000607,2.122352123260498,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:14
-16,REASONING,QATS-4,Inf-LLM (+v),1.4089889526367188,553,27,0.000607,2.347590923309326,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:17
-17,REASONING,QATS-4,Inf-LLM (+v),6.638669967651367,553,27,0.000607,7.838628053665161,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:25
-18,REASONING,QATS-4,Inf-LLM (+v),5.2263548374176025,553,29,0.000611,6.250379085540772,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:31
-19,REASONING,QATS-4,Inf-LLM (+v),5.963001012802124,553,29,0.000611,6.899965047836304,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:38
-20,REASONING,QATS-4,Inf-LLM (+v),5.25849199295044,553,26,0.000605,6.285299062728882,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:44
-21,REASONING,QATS-4,InfTS-LLM,1.38751482963562,976,67,0.0011099999999999,3.271646976470948,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:47
-22,REASONING,QATS-4,InfTS-LLM,1.3733911514282229,976,66,0.001108,3.820550203323364,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:51
-23,REASONING,QATS-4,InfTS-LLM,1.463162899017334,976,50,0.001076,2.8103368282318115,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:54
-24,REASONING,QATS-4,InfTS-LLM,1.323340654373169,976,65,0.001106,3.395148038864136,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:52:58
-25,REASONING,QATS-4,InfTS-LLM,1.536862850189209,976,64,0.001104,3.47681212425232,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:53:01
-26,REASONING,QATS-4,InfTS-LLM (+v),1.2961490154266355,976,65,0.001106,3.4251787662506104,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:53:05
-27,REASONING,QATS-4,InfTS-LLM (+v),6.414646148681641,976,49,0.0010739999999999,8.369606733322144,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:53:13
-28,REASONING,QATS-4,InfTS-LLM (+v),4.464373826980591,976,49,0.0010739999999999,5.809020042419434,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:53:19
-29,REASONING,QATS-4,InfTS-LLM (+v),6.051102876663208,976,51,0.001078,8.298892974853516,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:53:27
-30,REASONING,QATS-4,InfTS-LLM (+v),6.703352689743042,976,49,0.0010739999999999,8.518851041793823,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/QATS-4/predict-QATS-4/predict_response.log,2025-09-15 03:53:36
+1,REASONING,ChatTS,Window,1.4390456676483154,547,27,0.000601,2.3658390045166016,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:20
+2,REASONING,ChatTS,Window,1.391731023788452,547,26,0.0005989999999999,2.3498129844665527,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:22
+3,REASONING,ChatTS,Window,1.2922518253326416,547,29,0.000605,2.280901908874512,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:25
+4,REASONING,ChatTS,Window,1.3831181526184082,547,29,0.000605,2.530690908432007,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:27
+5,REASONING,ChatTS,Window,1.4400320053100586,547,27,0.000601,2.2154018878936768,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:30
+6,REASONING,ChatTS,Window (+v),1.233128786087036,547,27,0.000601,2.1595940589904785,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:32
+7,REASONING,ChatTS,Window (+v),7.241190195083618,547,27,0.000601,8.282340049743652,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:40
+8,REASONING,ChatTS,Window (+v),6.310273885726929,547,29,0.000605,7.210160970687866,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:47
+9,REASONING,ChatTS,Window (+v),6.269988775253296,547,27,0.000601,7.201620101928711,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:51:55
+10,REASONING,ChatTS,Window (+v),7.218513011932373,547,26,0.0005989999999999,8.05739688873291,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:03
+11,REASONING,ChatTS,Inf-LLM,1.4393939971923828,553,27,0.000607,2.3508141040802,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:05
+12,REASONING,ChatTS,Inf-LLM,1.2860448360443115,553,27,0.000607,2.1683390140533447,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:07
+13,REASONING,ChatTS,Inf-LLM,1.4577038288116455,553,29,0.000611,2.283437728881836,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:10
+14,REASONING,ChatTS,Inf-LLM,1.3661787509918213,553,27,0.000607,2.388757944107056,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:12
+15,REASONING,ChatTS,Inf-LLM,1.2989859580993652,553,27,0.000607,2.122352123260498,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:14
+16,REASONING,ChatTS,Inf-LLM (+v),1.4089889526367188,553,27,0.000607,2.347590923309326,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:17
+17,REASONING,ChatTS,Inf-LLM (+v),6.638669967651367,553,27,0.000607,7.838628053665161,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:25
+18,REASONING,ChatTS,Inf-LLM (+v),5.2263548374176025,553,29,0.000611,6.250379085540772,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:31
+19,REASONING,ChatTS,Inf-LLM (+v),5.963001012802124,553,29,0.000611,6.899965047836304,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:38
+20,REASONING,ChatTS,Inf-LLM (+v),5.25849199295044,553,26,0.000605,6.285299062728882,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:44
+21,REASONING,ChatTS,InfTS-LLM,1.38751482963562,976,67,0.0011099999999999,3.271646976470948,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:47
+22,REASONING,ChatTS,InfTS-LLM,1.3733911514282229,976,66,0.001108,3.820550203323364,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:51
+23,REASONING,ChatTS,InfTS-LLM,1.463162899017334,976,50,0.001076,2.8103368282318115,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:54
+24,REASONING,ChatTS,InfTS-LLM,1.323340654373169,976,65,0.001106,3.395148038864136,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:52:58
+25,REASONING,ChatTS,InfTS-LLM,1.536862850189209,976,64,0.001104,3.47681212425232,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:53:01
+26,REASONING,ChatTS,InfTS-LLM (+v),1.2961490154266355,976,65,0.001106,3.4251787662506104,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:53:05
+27,REASONING,ChatTS,InfTS-LLM (+v),6.414646148681641,976,49,0.0010739999999999,8.369606733322144,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:53:13
+28,REASONING,ChatTS,InfTS-LLM (+v),4.464373826980591,976,49,0.0010739999999999,5.809020042419434,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:53:19
+29,REASONING,ChatTS,InfTS-LLM (+v),6.051102876663208,976,51,0.001078,8.298892974853516,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:53:27
+30,REASONING,ChatTS,InfTS-LLM (+v),6.703352689743042,976,49,0.0010739999999999,8.518851041793823,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/ChatTS/predict-ChatTS/predict_response.log,2025-09-15 03:53:36
 31,FORECASTING_EVENT,Finance_sp500,TimeCAP,8.706884145736694,307,8,0.000323,9.32947826385498,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/Finance_sp500/predict-Finance_sp500/predict_response.log,2025-09-15 03:53:45
 32,FORECASTING_EVENT,Finance_sp500,TimeCAP,3.6448469161987305,307,8,0.000323,4.308536052703857,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/Finance_sp500/predict-Finance_sp500/predict_response.log,2025-09-15 03:53:49
 33,FORECASTING_EVENT,Finance_sp500,TimeCAP,4.9454851150512695,307,8,0.000323,5.719405174255371,/Users/leeway/PycharmProjects/InfTS-LLM/datasets/Finance_sp500/predict-Finance_sp500/predict_response.log,2025-09-15 03:53:55

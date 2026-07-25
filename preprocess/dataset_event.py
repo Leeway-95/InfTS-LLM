@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 from tqdm import tqdm
 
 from utils.common import *
-from utils.config import TASK, DATASET_FORECASTING_EVENT
+from utils.config import TASK, DATASET_PREDICTION
 from preprocess.variable_utils import get_dataset_variables
 
 def process_event_dataset(dataset_path):
@@ -81,11 +81,11 @@ def process_event_dataset(dataset_path):
     # 准备输出数据
     output_data = []
     
-    # 检查是否为FORECASTING_EVENT任务且数据集在指定列表中
-    is_forecasting_event_dataset = ("FORECASTING_EVENT" in TASK and dataset_name in DATASET_FORECASTING_EVENT)
+    # 检查是否为PREDICTION任务且数据集在指定列表中
+    is_prediction_dataset = ("PREDICTION" in TASK and dataset_name in DATASET_PREDICTION)
     
-    if is_forecasting_event_dataset:
-        # 对于FORECASTING_EVENT任务的特定数据集，使用新的标签分段逻辑
+    if is_prediction_dataset:
+        # 对于PREDICTION任务的特定数据集，使用新的标签分段逻辑
         try:
             positions_info, label_descriptions = analyze_label_positions(input_path)
         except Exception as e:
