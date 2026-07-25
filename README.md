@@ -18,20 +18,20 @@ InfTS-LLM can be directly applied to any LLMs without retraining:
 -->
 
 Here is an example of database usage monitoring, demonstrating how users can interact with LLMs for beyond-context TSQA.
-<p align="left">
-  <img width="1200" alt="image" src="https://github.com/user-attachments/assets/234d21f6-d3cc-4222-8dff-413ba0d24887" />
+<p align="center">
+  <img width="800" alt="image" src="https://github.com/user-attachments/assets/b2aa1eb3-b190-4e32-a309-0fae34c5a1bd" />
 </p>
 
 ## Abstract
-TSQA refers to answering natural language questions over numerical sequences. Recently, multimodal Large Language Models (LLMs) have been increasingly applied to analyze temporal relations and semantics. 
+TSQA refers to answering natural language questions over numerical sequences. Recently, multimodal Large Language Models (LLMs) have been increasingly applied to analyze temporal relations and semantics.
 
-However, the limited in-context length of LLMs constrains existing methods for extremely long streaming time series, such as database usage monitoring, where LLMs are required to perform understanding, reasoning, and forecasting of multiple time series metrics. This limitation leads to two fundamental challenges: efficient temporal-pattern detection and beyond-context temporal coverage. 
+However, the limited in-context length of LLMs constrains existing methods for extremely long observations, such as database usage monitoring, where LLMs are required to perform understanding, reasoning, and prediction over multiple streaming time series metrics. This setting introduces two fundamental challenges: efficient temporal-pattern detection and beyond-context temporal coverage.
 
 To address these challenges, this paper proposes **InfTS-LLM**, a zero-shot method composed of two components: (a) The Representative Detector extracts representative subsequences with temporal patterns. It adopts a linear-time Cascade Detection algorithm for efficient temporal-pattern detection. (b) The Feedback Instructor constructs Pattern-guided Chains of Thought for deep thinking with LLMs. It generates feedback scores to maintain the Memory Pool with an effective eviction mechanism for beyond-context temporal coverage.
 
-Extensive evaluations on multiple datasets demonstrate that InfTS-LLM achieves state-of-the-art performance. Further analysis reveals strengths across time series representations: visual representations enhance understanding, textual representations boost reasoning, and numerical representations improve forecasting.
+Extensive evaluations on multiple datasets demonstrate that InfTS-LLM achieves state-of-the-art performance. Further analysis reveals strengths across time series representations: visual representations enhance understanding, textual representations boost reasoning, and numerical representations improve prediction.
 
-<p align="left">
+<p align="center">
   <img width="1200" alt="image" src="https://github.com/user-attachments/assets/f17676f6-c797-4c74-bd1c-2f63ff9ecda3" />
 </p>
 
@@ -45,11 +45,9 @@ Extensive evaluations on multiple datasets demonstrate that InfTS-LLM achieves s
 * apache-flink==2.1.0
 
 ## Datasets
-1. Gold datasets can be obtained from our **datasets directory**.
-2. Numerical forecasting task datasets can be downloaded from [ETTm](https://drive.google.com/drive/folders/1eXR9w5eW2IMaJzbKWuMjTvdXehvYpMKA) and [Weather](https://drive.google.com/drive/folders/1cKPfcZamEWcF48ZvXyubwhkuz84tupu4).
-3. Event forecasting task datasets can be downloaded from [Finance](https://github.com/geon0325/TimeCAP/tree/main/dataset/finance), [Healthcare](https://github.com/geon0325/TimeCAP/tree/main/dataset/healthcare), and [Weather](https://github.com/geon0325/TimeCAP/tree/main/dataset/weather).
-4. Understanding task dataset can be downloaded from [TSQA](https://huggingface.co/datasets/ChengsenWang/TSQA).
-5. Reasoning task datasets can be downloaded from [AIOps](https://github.com/netmanaiops/kpi-anomaly-detection), [WeatherQA](https://www.bgc-jena.mpg.de/wetter), and [NAB](https://github.com/numenta/NAB), [Oracle](https://zenodo.org/records/6955909), and [MCQ2](https://github.com/behavioral-data/TSandLanguage).
+1. Understanding task datasets can be downloaded from [TSQA](https://huggingface.co/datasets/ChengsenWang/TSQA).
+2. Reasoning task datasets can be downloaded from [AIOps](https://github.com/netmanaiops/kpi-anomaly-detection), [WeatherQA](https://www.bgc-jena.mpg.de/wetter), [NAB](https://github.com/numenta/NAB), [Oracle](https://zenodo.org/records/6955909), and [MCQ2](https://github.com/behavioral-data/TSandLanguage).
+3. Prediction task datasets can be downloaded from [Finance](https://github.com/geon0325/TimeCAP/tree/main/dataset/finance), [Healthcare](https://github.com/geon0325/TimeCAP/tree/main/dataset/healthcare), and [Weather](https://github.com/geon0325/TimeCAP/tree/main/dataset/weather).
    
 ## Usages
 
