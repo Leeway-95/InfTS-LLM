@@ -29,7 +29,7 @@ class LLMClient:
         self.session.headers.update({
             "Content-Type": "application/json",
             "Authorization": f"Bearer {self.api_key}",
-            "User-Agent": "JD-LLM-Client/1.0",
+            "User-Agent": "LLM-Client/1.0",
             "Accept": "application/json"
         })
 
