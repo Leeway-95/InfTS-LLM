@@ -1,7 +1,7 @@
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:12
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 1 | 2025-09-15 02:17:12
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 1 | 2025-09-15 02:17:12
 ================================================================================
 LLM Response:
 ```json
@@ -12,7 +12,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:17
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 2 | 2025-09-15 02:17:17
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 2 | 2025-09-15 02:17:17
 ================================================================================
 LLM Response:
 ```json
@@ -23,7 +23,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:21
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 3 | 2025-09-15 02:17:21
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 3 | 2025-09-15 02:17:21
 ================================================================================
 LLM Response:
 ```json
@@ -34,7 +34,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:26
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 4 | 2025-09-15 02:17:26
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 4 | 2025-09-15 02:17:26
 ================================================================================
 LLM Response:
 ```json
@@ -45,7 +45,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:32
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 5 | 2025-09-15 02:17:32
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 5 | 2025-09-15 02:17:32
 ================================================================================
 LLM Response:
 ```json
@@ -56,7 +56,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:38
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 6 | 2025-09-15 02:17:38
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 6 | 2025-09-15 02:17:38
 ================================================================================
 LLM Response:
 ```json
@@ -67,7 +67,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:43
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 7 | 2025-09-15 02:17:43
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 7 | 2025-09-15 02:17:43
 ================================================================================
 LLM Response:
 ```json
@@ -78,7 +78,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:49
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 8 | 2025-09-15 02:17:49
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 8 | 2025-09-15 02:17:49
 ================================================================================
 LLM Response:
 ```json
@@ -89,7 +89,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:17:55
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 9 | 2025-09-15 02:17:55
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 9 | 2025-09-15 02:17:55
 ================================================================================
 LLM Response:
 ```json
@@ -100,7 +100,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:03
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 1 | 2025-09-15 02:18:03
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 1 | 2025-09-15 02:18:03
 ================================================================================
 LLM Response:
 {
@@ -110,7 +110,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:10
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 2 | 2025-09-15 02:18:10
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 2 | 2025-09-15 02:18:10
 ================================================================================
 LLM Response:
 {
@@ -120,7 +120,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:16
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 3 | 2025-09-15 02:18:16
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 3 | 2025-09-15 02:18:16
 ================================================================================
 LLM Response:
 {
@@ -130,7 +130,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:23
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 4 | 2025-09-15 02:18:23
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 4 | 2025-09-15 02:18:23
 ================================================================================
 LLM Response:
 {
@@ -140,7 +140,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:29
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 5 | 2025-09-15 02:18:29
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 5 | 2025-09-15 02:18:29
 ================================================================================
 LLM Response:
 {
@@ -150,7 +150,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:35
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 6 | 2025-09-15 02:18:35
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 6 | 2025-09-15 02:18:35
 ================================================================================
 LLM Response:
 {
@@ -160,7 +160,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:41
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 7 | 2025-09-15 02:18:41
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 7 | 2025-09-15 02:18:41
 ================================================================================
 LLM Response:
 {
@@ -170,7 +170,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:46
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 8 | 2025-09-15 02:18:46
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 8 | 2025-09-15 02:18:46
 ================================================================================
 LLM Response:
 {
@@ -180,7 +180,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:18:51
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 9 | 2025-09-15 02:18:51
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 9 | 2025-09-15 02:18:51
 ================================================================================
 LLM Response:
 {
@@ -190,7 +190,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:19:03
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 02:19:03
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 02:19:03
 ================================================================================
 LLM Response:
 {
@@ -200,7 +200,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:19:15
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 02:19:15
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 02:19:15
 ================================================================================
 LLM Response:
 {
@@ -210,7 +210,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:19:28
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 02:19:28
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 02:19:28
 ================================================================================
 LLM Response:
 {
@@ -220,7 +220,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:19:42
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 02:19:42
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 02:19:42
 ================================================================================
 LLM Response:
 {
@@ -230,7 +230,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:19:55
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 02:19:55
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 02:19:55
 ================================================================================
 LLM Response:
 {
@@ -240,7 +240,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:20:09
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 02:20:09
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 02:20:09
 ================================================================================
 LLM Response:
 {
@@ -250,7 +250,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:20:21
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 7 | 2025-09-15 02:20:21
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 7 | 2025-09-15 02:20:21
 ================================================================================
 LLM Response:
 {
@@ -260,7 +260,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:20:33
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 8 | 2025-09-15 02:20:33
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 8 | 2025-09-15 02:20:33
 ================================================================================
 LLM Response:
 {
@@ -270,7 +270,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 02:20:44
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 9 | 2025-09-15 02:20:44
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 9 | 2025-09-15 02:20:44
 ================================================================================
 LLM Response:
 {
@@ -280,7 +280,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:58:54
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 1 | 2025-09-15 03:58:54
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 1 | 2025-09-15 03:58:54
 ================================================================================
 LLM Response:
 ```json
@@ -291,7 +291,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:58:59
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 2 | 2025-09-15 03:58:59
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 2 | 2025-09-15 03:58:59
 ================================================================================
 LLM Response:
 ```json
@@ -302,7 +302,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:04
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 3 | 2025-09-15 03:59:04
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 3 | 2025-09-15 03:59:04
 ================================================================================
 LLM Response:
 ```json
@@ -313,7 +313,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:08
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 4 | 2025-09-15 03:59:08
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 4 | 2025-09-15 03:59:08
 ================================================================================
 LLM Response:
 ```json
@@ -324,7 +324,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:14
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 5 | 2025-09-15 03:59:14
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 5 | 2025-09-15 03:59:14
 ================================================================================
 LLM Response:
 ```json
@@ -335,7 +335,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:20
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 6 | 2025-09-15 03:59:20
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 6 | 2025-09-15 03:59:20
 ================================================================================
 LLM Response:
 ```json
@@ -346,7 +346,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:25
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 7 | 2025-09-15 03:59:25
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 7 | 2025-09-15 03:59:25
 ================================================================================
 LLM Response:
 ```json
@@ -357,7 +357,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:31
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 8 | 2025-09-15 03:59:31
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 8 | 2025-09-15 03:59:31
 ================================================================================
 LLM Response:
 ```json
@@ -368,7 +368,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:36
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: TimeCAP | Index: 9 | 2025-09-15 03:59:36
+Task: PREDICTION | Dataset: Finance_nikkei | Method: TimeCAP | Index: 9 | 2025-09-15 03:59:36
 ================================================================================
 LLM Response:
 ```json
@@ -379,7 +379,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:44
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 1 | 2025-09-15 03:59:44
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 1 | 2025-09-15 03:59:44
 ================================================================================
 LLM Response:
 {
@@ -389,7 +389,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:49
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 2 | 2025-09-15 03:59:49
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 2 | 2025-09-15 03:59:49
 ================================================================================
 LLM Response:
 {
@@ -399,7 +399,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:53
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 3 | 2025-09-15 03:59:53
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 3 | 2025-09-15 03:59:53
 ================================================================================
 LLM Response:
 {
@@ -409,7 +409,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:59:59
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 4 | 2025-09-15 03:59:59
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 4 | 2025-09-15 03:59:59
 ================================================================================
 LLM Response:
 {
@@ -419,7 +419,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:00:03
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 5 | 2025-09-15 04:00:03
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 5 | 2025-09-15 04:00:03
 ================================================================================
 LLM Response:
 {
@@ -429,7 +429,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:00:09
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 6 | 2025-09-15 04:00:09
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 6 | 2025-09-15 04:00:09
 ================================================================================
 LLM Response:
 {
@@ -439,7 +439,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:00:14
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 7 | 2025-09-15 04:00:14
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 7 | 2025-09-15 04:00:14
 ================================================================================
 LLM Response:
 {
@@ -449,7 +449,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:00:20
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 8 | 2025-09-15 04:00:20
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 8 | 2025-09-15 04:00:20
 ================================================================================
 LLM Response:
 {
@@ -459,7 +459,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:00:26
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 9 | 2025-09-15 04:00:26
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM | Index: 9 | 2025-09-15 04:00:26
 ================================================================================
 LLM Response:
 {
@@ -469,7 +469,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:00:39
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 04:00:39
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 04:00:39
 ================================================================================
 LLM Response:
 ```json
@@ -481,7 +481,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:00:50
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 04:00:50
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 04:00:50
 ================================================================================
 LLM Response:
 {
@@ -491,7 +491,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:01:02
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 04:01:02
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 04:01:02
 ================================================================================
 LLM Response:
 {
@@ -501,7 +501,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:01:14
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 04:01:14
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 04:01:14
 ================================================================================
 LLM Response:
 {
@@ -511,7 +511,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:01:26
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 04:01:26
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 04:01:26
 ================================================================================
 LLM Response:
 {
@@ -521,7 +521,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:01:38
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 04:01:38
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 04:01:38
 ================================================================================
 LLM Response:
 {
@@ -531,7 +531,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:01:50
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 7 | 2025-09-15 04:01:50
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 7 | 2025-09-15 04:01:50
 ================================================================================
 LLM Response:
 {
@@ -541,7 +541,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:02:03
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 8 | 2025-09-15 04:02:03
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 8 | 2025-09-15 04:02:03
 ================================================================================
 LLM Response:
 {
@@ -551,7 +551,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:02:14
-Task: FORECASTING_EVENT | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 9 | 2025-09-15 04:02:14
+Task: PREDICTION | Dataset: Finance_nikkei | Method: InfTS-LLM (+v) | Index: 9 | 2025-09-15 04:02:14
 ================================================================================
 LLM Response:
 {

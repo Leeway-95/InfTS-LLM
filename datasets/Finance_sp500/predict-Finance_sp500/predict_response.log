@@ -1,7 +1,7 @@
 
 ================================================================================
 Timestamp: 2025-09-15 01:20:43
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 1 | 2025-09-15 01:20:43
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 1 | 2025-09-15 01:20:43
 ================================================================================
 LLM Response:
 ```json
@@ -12,7 +12,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:20:49
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 2 | 2025-09-15 01:20:49
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 2 | 2025-09-15 01:20:49
 ================================================================================
 LLM Response:
 ```json
@@ -23,7 +23,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:20:54
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 3 | 2025-09-15 01:20:54
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 3 | 2025-09-15 01:20:54
 ================================================================================
 LLM Response:
 ```json
@@ -34,7 +34,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:20:59
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 4 | 2025-09-15 01:20:59
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 4 | 2025-09-15 01:20:59
 ================================================================================
 LLM Response:
 ```json
@@ -45,7 +45,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:03
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 5 | 2025-09-15 01:21:03
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 5 | 2025-09-15 01:21:03
 ================================================================================
 LLM Response:
 ```json
@@ -56,7 +56,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:07
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 6 | 2025-09-15 01:21:07
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 6 | 2025-09-15 01:21:07
 ================================================================================
 LLM Response:
 ```json
@@ -67,7 +67,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:12
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 7 | 2025-09-15 01:21:12
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 7 | 2025-09-15 01:21:12
 ================================================================================
 LLM Response:
 ```json
@@ -78,7 +78,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:17
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 8 | 2025-09-15 01:21:17
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 8 | 2025-09-15 01:21:17
 ================================================================================
 LLM Response:
 ```json
@@ -89,7 +89,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:22
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 9 | 2025-09-15 01:21:22
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 9 | 2025-09-15 01:21:22
 ================================================================================
 LLM Response:
 ```json
@@ -100,7 +100,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:32
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 1 | 2025-09-15 01:21:32
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 1 | 2025-09-15 01:21:32
 ================================================================================
 LLM Response:
 {
@@ -110,7 +110,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:37
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 2 | 2025-09-15 01:21:37
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 2 | 2025-09-15 01:21:37
 ================================================================================
 LLM Response:
 {
@@ -120,7 +120,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:43
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 3 | 2025-09-15 01:21:43
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 3 | 2025-09-15 01:21:43
 ================================================================================
 LLM Response:
 {
@@ -130,7 +130,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:49
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 4 | 2025-09-15 01:21:49
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 4 | 2025-09-15 01:21:49
 ================================================================================
 LLM Response:
 {
@@ -140,7 +140,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:21:55
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 5 | 2025-09-15 01:21:55
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 5 | 2025-09-15 01:21:55
 ================================================================================
 LLM Response:
 {
@@ -150,7 +150,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:22:01
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 6 | 2025-09-15 01:22:01
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 6 | 2025-09-15 01:22:01
 ================================================================================
 LLM Response:
 {
@@ -160,7 +160,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:22:06
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 7 | 2025-09-15 01:22:06
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 7 | 2025-09-15 01:22:06
 ================================================================================
 LLM Response:
 {
@@ -170,7 +170,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:22:11
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 8 | 2025-09-15 01:22:11
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 8 | 2025-09-15 01:22:11
 ================================================================================
 LLM Response:
 {
@@ -180,7 +180,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:22:17
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 9 | 2025-09-15 01:22:17
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 9 | 2025-09-15 01:22:17
 ================================================================================
 LLM Response:
 {
@@ -190,7 +190,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:22:31
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 01:22:31
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 01:22:31
 ================================================================================
 LLM Response:
 {
@@ -200,7 +200,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:22:43
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 01:22:43
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 01:22:43
 ================================================================================
 LLM Response:
 {
@@ -210,7 +210,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:22:55
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 01:22:55
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 01:22:55
 ================================================================================
 LLM Response:
 {
@@ -220,7 +220,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:23:08
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 01:23:08
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 01:23:08
 ================================================================================
 LLM Response:
 {
@@ -230,7 +230,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:23:20
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 01:23:20
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 01:23:20
 ================================================================================
 LLM Response:
 {
@@ -240,7 +240,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:23:32
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 01:23:32
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 01:23:32
 ================================================================================
 LLM Response:
 {
@@ -250,7 +250,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:23:45
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 7 | 2025-09-15 01:23:45
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 7 | 2025-09-15 01:23:45
 ================================================================================
 LLM Response:
 {
@@ -260,7 +260,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:23:59
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 8 | 2025-09-15 01:23:59
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 8 | 2025-09-15 01:23:59
 ================================================================================
 LLM Response:
 {
@@ -270,7 +270,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:24:09
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 9 | 2025-09-15 01:24:09
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 9 | 2025-09-15 01:24:09
 ================================================================================
 LLM Response:
 {
@@ -280,7 +280,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:53:45
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 1 | 2025-09-15 03:53:45
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 1 | 2025-09-15 03:53:45
 ================================================================================
 LLM Response:
 ```json
@@ -291,7 +291,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:53:49
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 2 | 2025-09-15 03:53:49
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 2 | 2025-09-15 03:53:49
 ================================================================================
 LLM Response:
 ```json
@@ -302,7 +302,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:53:55
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 3 | 2025-09-15 03:53:55
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 3 | 2025-09-15 03:53:55
 ================================================================================
 LLM Response:
 ```json
@@ -313,7 +313,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:01
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 4 | 2025-09-15 03:54:01
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 4 | 2025-09-15 03:54:01
 ================================================================================
 LLM Response:
 ```json
@@ -324,7 +324,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:06
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 5 | 2025-09-15 03:54:06
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 5 | 2025-09-15 03:54:06
 ================================================================================
 LLM Response:
 ```json
@@ -335,7 +335,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:12
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 6 | 2025-09-15 03:54:12
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 6 | 2025-09-15 03:54:12
 ================================================================================
 LLM Response:
 ```json
@@ -346,7 +346,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:17
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 7 | 2025-09-15 03:54:17
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 7 | 2025-09-15 03:54:17
 ================================================================================
 LLM Response:
 ```json
@@ -357,7 +357,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:23
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 8 | 2025-09-15 03:54:23
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 8 | 2025-09-15 03:54:23
 ================================================================================
 LLM Response:
 ```json
@@ -368,7 +368,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:27
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: TimeCAP | Index: 9 | 2025-09-15 03:54:27
+Task: PREDICTION | Dataset: Finance_sp500 | Method: TimeCAP | Index: 9 | 2025-09-15 03:54:27
 ================================================================================
 LLM Response:
 ```json
@@ -379,7 +379,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:37
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 1 | 2025-09-15 03:54:37
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 1 | 2025-09-15 03:54:37
 ================================================================================
 LLM Response:
 {
@@ -389,7 +389,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:44
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 2 | 2025-09-15 03:54:44
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 2 | 2025-09-15 03:54:44
 ================================================================================
 LLM Response:
 {
@@ -399,7 +399,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:49
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 3 | 2025-09-15 03:54:49
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 3 | 2025-09-15 03:54:49
 ================================================================================
 LLM Response:
 {
@@ -409,7 +409,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:54:54
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 4 | 2025-09-15 03:54:54
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 4 | 2025-09-15 03:54:54
 ================================================================================
 LLM Response:
 {
@@ -419,7 +419,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:55:00
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 5 | 2025-09-15 03:55:00
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 5 | 2025-09-15 03:55:00
 ================================================================================
 LLM Response:
 {
@@ -429,7 +429,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:55:07
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 6 | 2025-09-15 03:55:07
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 6 | 2025-09-15 03:55:07
 ================================================================================
 LLM Response:
 {
@@ -439,7 +439,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:55:12
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 7 | 2025-09-15 03:55:12
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 7 | 2025-09-15 03:55:12
 ================================================================================
 LLM Response:
 {
@@ -449,7 +449,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:55:17
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 8 | 2025-09-15 03:55:17
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 8 | 2025-09-15 03:55:17
 ================================================================================
 LLM Response:
 {
@@ -459,7 +459,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:55:23
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 9 | 2025-09-15 03:55:23
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM | Index: 9 | 2025-09-15 03:55:23
 ================================================================================
 LLM Response:
 {
@@ -469,7 +469,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:55:36
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 03:55:36
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 03:55:36
 ================================================================================
 LLM Response:
 {
@@ -479,7 +479,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:55:48
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 03:55:48
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 03:55:48
 ================================================================================
 LLM Response:
 {
@@ -489,7 +489,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:56:02
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 03:56:02
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 03:56:02
 ================================================================================
 LLM Response:
 {
@@ -499,7 +499,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:56:15
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 03:56:15
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 03:56:15
 ================================================================================
 LLM Response:
 {
@@ -509,7 +509,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:56:28
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 03:56:28
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 5 | 2025-09-15 03:56:28
 ================================================================================
 LLM Response:
 {
@@ -519,7 +519,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:56:41
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 03:56:41
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 6 | 2025-09-15 03:56:41
 ================================================================================
 LLM Response:
 {
@@ -529,7 +529,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:56:53
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 7 | 2025-09-15 03:56:53
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 7 | 2025-09-15 03:56:53
 ================================================================================
 LLM Response:
 {
@@ -539,7 +539,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:57:06
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 8 | 2025-09-15 03:57:06
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 8 | 2025-09-15 03:57:06
 ================================================================================
 LLM Response:
 {
@@ -549,7 +549,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 03:57:17
-Task: FORECASTING_EVENT | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 9 | 2025-09-15 03:57:17
+Task: PREDICTION | Dataset: Finance_sp500 | Method: InfTS-LLM (+v) | Index: 9 | 2025-09-15 03:57:17
 ================================================================================
 LLM Response:
 {

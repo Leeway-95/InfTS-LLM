@@ -1,7 +1,7 @@
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:20
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 1 | 2025-09-15 01:16:20
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 1 | 2025-09-15 01:16:20
 ================================================================================
 LLM Response:
 ```json
@@ -12,7 +12,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:22
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 2 | 2025-09-15 01:16:22
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 2 | 2025-09-15 01:16:22
 ================================================================================
 LLM Response:
 ```json
@@ -23,7 +23,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:25
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 3 | 2025-09-15 01:16:25
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 3 | 2025-09-15 01:16:25
 ================================================================================
 LLM Response:
 ```json
@@ -34,7 +34,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:27
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 4 | 2025-09-15 01:16:27
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 4 | 2025-09-15 01:16:27
 ================================================================================
 LLM Response:
 ```json
@@ -45,7 +45,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:30
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 1 | 2025-09-15 01:16:30
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 1 | 2025-09-15 01:16:30
 ================================================================================
 LLM Response:
 {
@@ -55,7 +55,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:32
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 2 | 2025-09-15 01:16:32
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 2 | 2025-09-15 01:16:32
 ================================================================================
 LLM Response:
 {
@@ -65,7 +65,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:35
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 3 | 2025-09-15 01:16:35
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 3 | 2025-09-15 01:16:35
 ================================================================================
 LLM Response:
 {
@@ -75,7 +75,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:38
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 4 | 2025-09-15 01:16:38
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 4 | 2025-09-15 01:16:38
 ================================================================================
 LLM Response:
 {
@@ -85,7 +85,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:44
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 01:16:44
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 01:16:44
 ================================================================================
 LLM Response:
 {
@@ -95,7 +95,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:48
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 01:16:48
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 01:16:48
 ================================================================================
 LLM Response:
 ```json
@@ -107,7 +107,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:53
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 01:16:53
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 01:16:53
 ================================================================================
 LLM Response:
 {
@@ -117,7 +117,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 01:16:57
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 01:16:57
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 01:16:57
 ================================================================================
 LLM Response:
 {
@@ -127,7 +127,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:41:47
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 1 | 2025-09-15 04:41:47
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 1 | 2025-09-15 04:41:47
 ================================================================================
 LLM Response:
 ```json
@@ -138,7 +138,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:41:50
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 2 | 2025-09-15 04:41:50
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 2 | 2025-09-15 04:41:50
 ================================================================================
 LLM Response:
 ```json
@@ -149,7 +149,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:41:52
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 3 | 2025-09-15 04:41:52
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 3 | 2025-09-15 04:41:52
 ================================================================================
 LLM Response:
 ```json
@@ -160,7 +160,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:41:54
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 4 | 2025-09-15 04:41:54
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: TimeCAP | Index: 4 | 2025-09-15 04:41:54
 ================================================================================
 LLM Response:
 ```json
@@ -171,7 +171,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:41:57
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 1 | 2025-09-15 04:41:57
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 1 | 2025-09-15 04:41:57
 ================================================================================
 LLM Response:
 {
@@ -181,7 +181,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:42:00
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 2 | 2025-09-15 04:42:00
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 2 | 2025-09-15 04:42:00
 ================================================================================
 LLM Response:
 {
@@ -191,7 +191,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:42:02
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 3 | 2025-09-15 04:42:02
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 3 | 2025-09-15 04:42:02
 ================================================================================
 LLM Response:
 {
@@ -201,7 +201,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:42:05
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 4 | 2025-09-15 04:42:05
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM | Index: 4 | 2025-09-15 04:42:05
 ================================================================================
 LLM Response:
 {
@@ -211,7 +211,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:42:10
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 04:42:10
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 1 | 2025-09-15 04:42:10
 ================================================================================
 LLM Response:
 {
@@ -221,7 +221,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:42:14
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 04:42:14
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 2 | 2025-09-15 04:42:14
 ================================================================================
 LLM Response:
 {
@@ -231,7 +231,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:42:18
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 04:42:18
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 3 | 2025-09-15 04:42:18
 ================================================================================
 LLM Response:
 {
@@ -241,7 +241,7 @@ LLM Response:
 
 ================================================================================
 Timestamp: 2025-09-15 04:42:22
-Task: FORECASTING_EVENT | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 04:42:22
+Task: PREDICTION | Dataset: Healthcare_mortality | Method: InfTS-LLM (+v) | Index: 4 | 2025-09-15 04:42:22
 ================================================================================
 LLM Response:
 {
