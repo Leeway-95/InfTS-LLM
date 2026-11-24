@@ -1,5 +1,5 @@
 <div align="center">
-  <h2><b> <img src="https://github.com/user-attachments/assets/f84d73f2-7c81-45ef-8a66-421c758732f4" style="width:35px;height:30px;"> InfTS-LLM: Aligning Streaming Time Series with LLMs for Beyond-Context Question Answering </b></h2>
+  <h2><b><img src="https://github.com/user-attachments/assets/f84d73f2-7c81-45ef-8a66-421c758732f4" style="width:35px;height:30px;"> InfTS-LLM: Aligning Streaming Time Series with LLMs for Beyond-Context Question Answering </b></h2>
 </div>
 
 [![GitHub Stars](https://img.shields.io/github/stars/Leeway-95/InfTS-LLM?style=social)](https://github.com/Leeway-95/InfTS-LLM/stargazers)
@@ -22,7 +22,7 @@ Here is an example of database usage monitoring, demonstrating how users can int
   <img width="800" alt="image" src="https://github.com/user-attachments/assets/b2aa1eb3-b190-4e32-a309-0fae34c5a1bd" />
 </p>
 
-## Abstract
+## [📚 **Paper**](https://ieeexplore.ieee.org/abstract/document/11793791)
 TSQA refers to answering natural language questions over numerical sequences. Recently, multimodal Large Language Models (LLMs) have been increasingly applied to analyze temporal relations and semantics.
 
 However, the limited in-context length of LLMs constrains existing methods for extremely long observations, such as database usage monitoring, where LLMs are required to perform understanding, reasoning, and prediction over multiple streaming time series metrics. This setting introduces two fundamental challenges: efficient temporal-pattern detection and beyond-context temporal coverage.
